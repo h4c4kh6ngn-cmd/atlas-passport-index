@@ -1,0 +1,35 @@
+{
+  "iso2": "US",
+  "iso3": "USA",
+  "name": {
+    "nl": "Verenigde Staten"
+  },
+  "region": "Noord-Amerika",
+  "passportIndex": {
+    "score": 179,
+    "maxDestinations": 227,
+    "note": "Van plek 1 (2014) naar 10: het beroemdste voorbeeld van dalende paspoortmacht. Reciprociteit is de achilleshiel — de VS laat weinig landen visumvrij binnen."
+  },
+  "flags": {
+    "euMember": false,
+    "schengenMember": false,
+    "usVisaWaiver": true,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "allowed",
+    "note": null
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

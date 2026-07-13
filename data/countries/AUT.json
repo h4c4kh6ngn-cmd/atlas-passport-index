@@ -1,0 +1,35 @@
+{
+  "iso2": "AT",
+  "iso3": "AUT",
+  "name": {
+    "nl": "Oostenrijk"
+  },
+  "region": "Europa",
+  "passportIndex": {
+    "score": 184,
+    "maxDestinations": 227,
+    "note": null
+  },
+  "flags": {
+    "euMember": true,
+    "schengenMember": true,
+    "usVisaWaiver": true,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "not_allowed",
+    "note": "Een van de strengste landen van Europa; uitzonderingen alleen bij bijzonder belang voor de staat."
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

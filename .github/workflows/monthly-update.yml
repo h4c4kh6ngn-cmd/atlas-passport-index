@@ -1,0 +1,47 @@
+name: Monthly data update (AI-assisted)
+
+# Runs a research pass over the passport/visa/dual-citizenship dataset and
+# opens a pull request with any proposed, source-cited changes. This
+# workflow NEVER merges or pushes to main directly — it only opens a PR for
+# human review (see permissions below and the absence of any merge step).
+on:
+  schedule:
+    - cron: "0 6 1 * *" # 06:00 UTC on the 1st of every month
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write # to create a branch and commit
+  pull-requests: write # to open the PR
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run AI-assisted data verification
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run ai-update
+
+      - name: Keep manifest in sync
+        run: npm run build:manifest
+
+      - name: Open pull request with any changes
+        uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "chore: monthly passport/visa data verification"
+          title: "Monthly data verification — ${{ github.run_id }}"
+          body-path: ${{ runner.temp }}/pr-body.md
+          branch: data-update/${{ github.run_id }}
+          labels: automated-data-update
+          # No auto-merge is configured anywhere in this repo. This action
+          # only opens a PR; a human must review the cited sources and
+          # merge manually.

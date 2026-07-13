@@ -1,0 +1,35 @@
+{
+  "iso2": "CN",
+  "iso3": "CHN",
+  "name": {
+    "nl": "China"
+  },
+  "region": "Azië",
+  "passportIndex": {
+    "score": 82,
+    "maxDestinations": 227,
+    "note": "Bescheiden score, maar de invloedrijkste visumdiplomaat van dit moment: China stelt zélf tientallen landen visumvrij en oogst reciprociteit."
+  },
+  "flags": {
+    "euMember": false,
+    "schengenMember": false,
+    "usVisaWaiver": false,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "not_allowed",
+    "note": "China erkent geen dubbele nationaliteit; naturalisatie elders betekent formeel verlies."
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

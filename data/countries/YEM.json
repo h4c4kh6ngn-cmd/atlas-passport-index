@@ -1,0 +1,35 @@
+{
+  "iso2": "YE",
+  "iso3": "YEM",
+  "name": {
+    "nl": "Jemen"
+  },
+  "region": "Midden-Oosten",
+  "passportIndex": {
+    "score": 31,
+    "maxDestinations": 227,
+    "note": null
+  },
+  "flags": {
+    "euMember": false,
+    "schengenMember": false,
+    "usVisaWaiver": false,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "restricted",
+    "note": null
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

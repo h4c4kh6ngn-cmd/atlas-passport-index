@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATLAS — Paspoort Power Index 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#0C1322; --navy2:#111A2E; --navy3:#18233C;
+  --ivory:#EFE9DC; --ivory-dim:#B9B2A3; --line:rgba(200,165,87,.22);
+  --gold:#C8A557; --gold-bright:#E3C57B; --burgundy:#7A2434; --steel:#8FA3BF;
+  --t1:#E3C57B; --t2:#CBD6C2; --t3:#8FA3BF; --t4:#B08968; --t5:#A65D4E; --t6:#8C3B3B;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--navy);color:var(--ivory);font-family:'Archivo',sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+::selection{background:var(--gold);color:var(--navy)}
+.mono{font-family:'IBM Plex Mono',monospace}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+/* ---------- NAV ---------- */
+nav{position:sticky;top:0;z-index:50;background:rgba(12,19,34,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:'Fraunces',serif;font-size:20px;letter-spacing:.14em;color:var(--gold-bright)}
+.logo span{color:var(--ivory);letter-spacing:.02em;font-weight:300}
+.navlinks{display:flex;gap:22px}
+.navlinks a{color:var(--ivory-dim);text-decoration:none;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.navlinks a:hover,.navlinks a:focus-visible{color:var(--gold-bright)}
+.nav-cta{background:var(--gold);color:var(--navy);padding:8px 16px;border-radius:2px;font-weight:600;font-size:13px;text-decoration:none;letter-spacing:.05em}
+.nav-cta:hover{background:var(--gold-bright)}
+@media(max-width:760px){.navlinks{display:none}}
+/* ---------- HERO ---------- */
+header{padding:72px 0 0;position:relative;overflow:hidden}
+.guilloche{position:absolute;inset:0;opacity:.05;pointer-events:none;
+  background-image:repeating-radial-gradient(circle at 30% 20%,var(--gold) 0 1px,transparent 1px 42px),repeating-radial-gradient(circle at 75% 85%,var(--gold) 0 1px,transparent 1px 34px)}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.28em;color:var(--gold);text-transform:uppercase;margin-bottom:22px}
+h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(38px,6.4vw,72px);line-height:1.06;max-width:14ch}
+h1 em{font-style:italic;color:var(--gold-bright)}
+.hero-sub{color:var(--ivory-dim);max-width:52ch;margin:24px 0 8px;font-size:17px}
+/* spectrum */
+.spectrum-block{margin:52px 0 0}
+.spec-label{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ivory-dim);letter-spacing:.1em;margin-bottom:10px}
+#spectrum{display:flex;align-items:flex-end;gap:1px;height:120px;cursor:crosshair}
+#spectrum .bar{flex:1;min-width:2px;transition:transform .12s ease,filter .12s;transform-origin:bottom}
+#spectrum .bar:hover{transform:scaleY(1.08);filter:brightness(1.5)}
+#spec-tip{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--gold-bright);height:22px;margin-top:12px;letter-spacing:.04em}
+.mrz{margin-top:46px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;overflow:hidden;white-space:nowrap}
+.mrz-inner{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:14px;letter-spacing:.18em;color:rgba(239,233,220,.4);animation:mrz 60s linear infinite}
+@keyframes mrz{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.mrz-inner{animation:none}}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-left:1px solid var(--line)}
+.stat{border-right:1px solid var(--line);padding:26px 22px}
+.stat b{font-family:'Fraunces',serif;font-weight:400;font-size:40px;color:var(--gold-bright);display:block;line-height:1}
+.stat span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ivory-dim)}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.stat{padding:18px 16px}.stat b{font-size:30px}}
+section{padding:84px 0}
+.sec-head{margin-bottom:36px}
+h2{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(28px,4vw,44px);line-height:1.15}
+.sec-head p{color:var(--ivory-dim);max-width:60ch;margin-top:10px}
+/* ---------- RANKING ---------- */
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.controls input,.controls select{background:var(--navy2);border:1px solid var(--line);color:var(--ivory);padding:11px 14px;border-radius:2px;font-family:'Archivo',sans-serif;font-size:14px}
+.controls input{flex:1;min-width:200px}
+.controls input:focus,.controls select:focus{outline:2px solid var(--gold);outline-offset:1px}
+.tier-chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.chip{border:1px solid var(--line);background:transparent;color:var(--ivory-dim);padding:6px 13px;border-radius:20px;font-size:12.5px;cursor:pointer;font-family:'Archivo',sans-serif;letter-spacing:.03em}
+.chip.on{background:var(--gold);border-color:var(--gold);color:var(--navy);font-weight:600}
+.chip:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+#ranklist{display:flex;flex-direction:column;gap:6px}
+.row{display:grid;grid-template-columns:64px 44px 1fr 150px 70px;align-items:center;gap:14px;background:var(--navy2);border:1px solid transparent;border-left:3px solid var(--tc,var(--steel));padding:13px 18px;border-radius:2px;cursor:pointer;transition:border-color .15s,background .15s;text-align:left;width:100%;color:inherit;font:inherit}
+.row:hover,.row:focus-visible{background:var(--navy3);border-color:var(--line);outline:none}
+.row .rk{font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--ivory-dim)}
+.row .rk b{color:var(--gold-bright);font-weight:500;font-size:16px}
+.row .flag{font-size:24px}
+.row .nm{font-weight:600;font-size:15.5px}
+.row .nm small{display:block;font-weight:400;color:var(--ivory-dim);font-size:12px;letter-spacing:.05em}
+.row .meter{height:4px;background:rgba(255,255,255,.08);border-radius:2px;overflow:hidden}
+.row .meter i{display:block;height:100%;background:var(--tc,var(--steel))}
+.row .sc{font-family:'IBM Plex Mono',monospace;text-align:right;font-size:15px;color:var(--ivory)}
+.row .sc small{display:block;font-size:10px;color:var(--ivory-dim);letter-spacing:.08em}
+@media(max-width:700px){.row{grid-template-columns:48px 34px 1fr 62px}.row .meter{display:none}.row .flag{font-size:20px}}
+#morebtn{margin:26px auto 0;display:block;background:transparent;border:1px solid var(--gold);color:var(--gold-bright);padding:12px 34px;border-radius:2px;font-family:'Archivo',sans-serif;font-size:14px;letter-spacing:.1em;cursor:pointer;text-transform:uppercase}
+#morebtn:hover{background:var(--gold);color:var(--navy)}
+.count-note{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ivory-dim);margin-top:14px;text-align:center}
+/* ---------- LOADING / ERROR ---------- */
+#loading{padding:60px 0;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--ivory-dim);letter-spacing:.08em}
+#loaderror{display:none;padding:24px;border:1px solid var(--t5);background:rgba(166,93,78,.08);border-radius:2px;color:var(--ivory);font-size:14px;margin-bottom:26px}
+/* ---------- MODAL / DOSSIER ---------- */
+#overlay{position:fixed;inset:0;background:rgba(5,9,18,.8);backdrop-filter:blur(4px);z-index:90;display:none}
+#overlay.open{display:block}
+#dossier{position:fixed;z-index:100;inset:auto 0 0 0;top:4vh;margin:0 auto;max-width:680px;max-height:96vh;overflow-y:auto;background:linear-gradient(160deg,#131D33,#0D1425);border:1px solid var(--gold);border-bottom:none;border-radius:6px 6px 0 0;display:none;box-shadow:0 -20px 80px rgba(0,0,0,.6)}
+#dossier.open{display:block}
+.d-inner{padding:34px 34px 0;position:relative}
+.d-close{position:absolute;top:16px;right:16px;background:transparent;border:1px solid var(--line);color:var(--ivory-dim);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:15px}
+.d-close:hover{color:var(--gold-bright);border-color:var(--gold)}
+.d-top{display:flex;gap:20px;align-items:center;border-bottom:1px dashed var(--line);padding-bottom:22px}
+.crest{width:78px;height:78px;border-radius:50%;border:1.5px solid var(--gold);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative}
+.crest::after{content:"";position:absolute;inset:5px;border:1px dotted var(--line);border-radius:50%}
+.crest span{font-size:34px}
+.d-title h3{font-family:'Fraunces',serif;font-weight:400;font-size:30px;line-height:1.1}
+.d-title .mono{font-size:12px;color:var(--gold);letter-spacing:.2em;margin-top:4px}
+.d-stamp{margin-left:auto;transform:rotate(-8deg);border:2px solid var(--sc,var(--steel));color:var(--sc,var(--steel));border-radius:4px;padding:6px 12px;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;white-space:nowrap;opacity:.9}
+.d-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin:24px 0}
+.d-cell{background:var(--navy2);padding:16px}
+.d-cell span{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ivory-dim);display:block;margin-bottom:5px}
+.d-cell b{font-family:'Fraunces',serif;font-weight:400;font-size:24px;color:var(--gold-bright)}
+.d-cov{margin:6px 0 26px}
+.d-cov .lbl{display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ivory-dim);margin-bottom:8px;letter-spacing:.06em}
+.d-cov .bar{height:8px;background:rgba(255,255,255,.07);border-radius:4px;overflow:hidden}
+.d-cov .bar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,var(--burgundy),var(--gold-bright));transition:width .7s ease}
+.d-sec-t{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.22em;color:var(--gold);text-transform:uppercase;margin:26px 0 14px}
+.adv{border-left:2px solid var(--gold);padding:10px 16px;margin-bottom:10px;background:rgba(200,165,87,.05)}
+.adv b{display:block;font-size:14.5px;margin-bottom:2px}
+.adv p{font-size:13.5px;color:var(--ivory-dim);line-height:1.5}
+.adv.neg{border-color:var(--t5);background:rgba(166,93,78,.06)}
+.d-note{font-size:14px;color:var(--ivory);background:var(--navy3);border:1px solid var(--line);padding:14px 16px;border-radius:2px;font-style:italic}
+.d-nav{display:flex;justify-content:space-between;margin:28px 0 0;padding:16px 0;border-top:1px dashed var(--line)}
+.d-nav button{background:transparent;border:none;color:var(--steel);font-family:'IBM Plex Mono',monospace;font-size:12.5px;cursor:pointer;letter-spacing:.06em}
+.d-nav button:hover{color:var(--gold-bright)}
+.d-mrz{background:var(--ivory);color:#1a1a1a;font-family:'IBM Plex Mono',monospace;font-size:clamp(10px,2.5vw,14px);letter-spacing:.12em;padding:14px 20px;margin:10px -34px 0;line-height:1.7;overflow:hidden;white-space:nowrap}
+.d-cta{display:block;text-align:center;background:var(--gold);color:var(--navy);font-weight:700;padding:15px;margin:26px 0 0;border-radius:2px;text-decoration:none;letter-spacing:.06em;font-size:14.5px;border:none;width:100%;cursor:pointer;font-family:'Archivo',sans-serif}
+.d-cta:hover{background:var(--gold-bright)}
+@media(max-width:600px){.d-inner{padding:24px 20px 0}.d-mrz{margin:10px -20px 0}.d-grid{grid-template-columns:1fr 1fr}.d-stamp{display:none}}
+/* ---------- COMPARE ---------- */
+.cmp-wrap{background:var(--navy2);border:1px solid var(--line);padding:32px;border-radius:4px}
+.cmp-sel{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center;margin-bottom:30px}
+.cmp-sel select{width:100%;background:var(--navy);border:1px solid var(--line);color:var(--ivory);padding:13px;border-radius:2px;font-size:15px}
+.vs{font-family:'Fraunces',serif;font-style:italic;color:var(--gold);font-size:22px}
+.cmp-row{display:grid;grid-template-columns:1fr 130px 1fr;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:14.5px}
+.cmp-row .c-lbl{text-align:center;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ivory-dim)}
+.cmp-row .val{font-family:'IBM Plex Mono',monospace;font-size:16px}
+.cmp-row .val.win{color:var(--gold-bright);font-weight:600}
+.cmp-row .val:last-child{text-align:right}
+@media(max-width:600px){.cmp-sel{grid-template-columns:1fr}.vs{text-align:center}}
+/* ---------- DUAL NATIONALITY ---------- */
+.dn-stats{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.dn-chip{border:1px solid var(--line);background:var(--navy2);color:var(--ivory);padding:10px 18px;border-radius:2px;font-size:13.5px;cursor:pointer;font-family:'Archivo',sans-serif;display:flex;align-items:center;gap:9px}
+.dn-chip .dot{width:9px;height:9px;border-radius:50%}
+.dn-chip b{font-family:'IBM Plex Mono',monospace;font-weight:500;color:var(--ivory-dim)}
+.dn-chip.on{border-color:var(--gold);background:var(--navy3)}
+.dn-chip:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.dn-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:7px}
+.dn-item{display:flex;align-items:center;gap:10px;background:var(--navy2);border:1px solid transparent;border-radius:2px;padding:10px 13px;cursor:pointer;font:inherit;color:inherit;text-align:left;font-size:13.5px}
+.dn-item:hover,.dn-item:focus-visible{border-color:var(--line);background:var(--navy3);outline:none}
+.dn-item .dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.dn-item small{margin-left:auto;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ivory-dim);letter-spacing:.08em}
+.dn-legend{font-size:12.5px;color:var(--ivory-dim);margin-top:20px;line-height:1.7}
+.st-J{background:#7FA86B}.st-B{background:#C8A557}.st-N{background:#A65D4E}
+/* ---------- PRO / MONETIZATION ---------- */
+#pro{background:linear-gradient(180deg,var(--navy) 0%,#0A1020 100%)}
+.pro-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:start}
+.price-card{background:var(--navy2);border:1px solid var(--gold);border-radius:4px;padding:34px;position:relative}
+.price-card .badge{position:absolute;top:-12px;left:30px;background:var(--gold);color:var(--navy);font-size:11px;font-weight:700;letter-spacing:.14em;padding:4px 12px;border-radius:2px;text-transform:uppercase}
+.price{font-family:'Fraunces',serif;font-size:52px;font-weight:300;margin:14px 0 4px}
+.price small{font-size:16px;color:var(--ivory-dim)}
+.feat{list-style:none;margin:22px 0}
+.feat li{padding:9px 0 9px 30px;position:relative;font-size:14.5px;color:var(--ivory-dim);border-bottom:1px solid rgba(255,255,255,.05)}
+.feat li::before{content:"✦";position:absolute;left:2px;color:var(--gold)}
+.lead-card{background:var(--navy2);border:1px solid var(--line);border-radius:4px;padding:30px}
+.lead-card h3{font-family:'Fraunces',serif;font-weight:400;font-size:24px;margin-bottom:8px}
+.lead-card p{font-size:14px;color:var(--ivory-dim);margin-bottom:18px}
+.lead-card input{width:100%;background:var(--navy);border:1px solid var(--line);color:var(--ivory);padding:13px;border-radius:2px;margin-bottom:10px;font-family:'Archivo',sans-serif;font-size:14px}
+.rev-models{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
+.rev{border:1px solid var(--line);border-top:2px solid var(--gold);padding:20px;background:rgba(255,255,255,.02)}
+.rev b{display:block;font-size:14px;margin-bottom:6px;letter-spacing:.04em}
+.rev p{font-size:13px;color:var(--ivory-dim);line-height:1.55}
+.rev .mono{font-size:10px;color:var(--gold);letter-spacing:.2em;display:block;margin-bottom:10px}
+@media(max-width:860px){.pro-grid,.rev-models{grid-template-columns:1fr}}
+/* ---------- FOOTER ---------- */
+footer{border-top:1px solid var(--line);padding:44px 0 60px;color:var(--ivory-dim);font-size:13px}
+footer .logo{font-size:16px;margin-bottom:14px;display:block}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120px);background:var(--gold);color:var(--navy);font-weight:600;padding:13px 26px;border-radius:3px;z-index:200;transition:transform .3s ease;font-size:14px}
+.toast.show{transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">ATLAS<span> / Mobility Index</span></div>
+    <div class="navlinks">
+      <a href="#ranking">Ranking</a><a href="#vergelijk">Vergelijk</a><a href="#dubbel">Dubbel paspoort</a><a href="#pro">Pro</a>
+    </div>
+    <a class="nav-cta" href="#pro">Word Pro-lid</a>
+  </div>
+</nav>
+
+<header>
+  <div class="guilloche"></div>
+  <div class="wrap">
+    <p class="eyebrow">Editie 2026 · 199 paspoorten · 227 bestemmingen</p>
+    <h1>De macht van een <em>paspoort</em>, gemeten in vrijheid.</h1>
+    <p class="hero-sub">Eén Singaporees paspoort opent 192 grenzen zonder visum. Een Afghaans paspoort opent er 24. Hieronder: het volledige spectrum — elk balkje is een land. Tik erop.</p>
+    <div class="spectrum-block">
+      <div class="spec-label"><span id="spec-first">№ 1</span><span id="spec-last">№ 199</span></div>
+      <div id="spectrum" aria-label="Interactief spectrum van alle 199 paspoorten"></div>
+      <div id="spec-tip">Beweeg over het spectrum —</div>
+    </div>
+  </div>
+  <div class="mrz"><div class="mrz-inner" id="mrzline"></div></div>
+  <div class="wrap" style="padding:0">
+    <div class="stats" id="statsRow"></div>
+  </div>
+</header>
+
+<section id="ranking">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Het volledige register</p>
+      <h2>Wereldranglijst 2026</h2>
+      <p>Alle 199 paspoorten, gerangschikt op visumvrije toegang. Open een land voor het volledige dossier: voordelen, zwaktes en strategische waarde.</p>
+    </div>
+    <div id="loaderror"></div>
+    <div id="loading">Data laden…</div>
+    <div id="app-ranking" style="display:none">
+      <div class="controls">
+        <input id="q" type="search" placeholder="Zoek een land… (bv. Nederland)" aria-label="Zoek een land">
+        <select id="regionSel" aria-label="Filter op regio"><option value="">Alle regio's</option></select>
+        <select id="sortSel" aria-label="Sorteer"><option value="rank">Sorteer: rang</option><option value="az">Sorteer: A–Z</option></select>
+      </div>
+      <div class="tier-chips" id="chips"></div>
+      <div id="ranklist"></div>
+      <button id="morebtn">Toon alle 199 paspoorten</button>
+      <p class="count-note" id="countnote"></p>
+    </div>
+  </div>
+</section>
+
+<section id="vergelijk" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Head-to-head</p>
+      <h2>Vergelijk twee paspoorten</h2>
+    </div>
+    <div class="cmp-wrap">
+      <div class="cmp-sel">
+        <select id="cmpA" aria-label="Eerste paspoort"></select>
+        <div class="vs">versus</div>
+        <select id="cmpB" aria-label="Tweede paspoort"></select>
+      </div>
+      <div id="cmpOut"></div>
+    </div>
+  </div>
+</section>
+
+<section id="dubbel" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Database</p>
+      <h2>Welke landen accepteren een dubbele nationaliteit?</h2>
+      <p>De vraag die aan elke tweede-paspoortstrategie voorafgaat — en die geen enkele grote index beantwoordt. Alle 199 landen, doorzoekbaar. Tik op een land voor het volledige dossier.</p>
+    </div>
+    <div class="dn-stats" id="dnChips"></div>
+    <div class="controls" style="margin-bottom:22px">
+      <input id="dnQ" type="search" placeholder="Zoek een land…" aria-label="Zoek in dubbele-nationaliteit database">
+    </div>
+    <div class="dn-grid" id="dnGrid"></div>
+    <p class="dn-legend"><b style="color:var(--gold-bright)">Indicatieve status.</b> Nationaliteitswetgeving kent per land uitzonderingen (geboorte, huwelijk, afkomst) en verandert regelmatig — Duitsland versoepelde bijvoorbeeld pas in 2024. Verifieer altijd de actuele wet vóór een beslissing. Dit is de contentmachine van de site: elk land hieronder is straks een eigen SEO-pagina.</p>
+  </div>
+</section>
+
+<section id="pro">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Atlas Pro</p>
+      <h2>Van ranglijst naar strategie</h2>
+      <p>De gratis index toont wáár je staat. Pro laat zien wat je ermee doet: tweede paspoorten, fiscale routes en visastrategie.</p>
+    </div>
+    <div class="pro-grid">
+      <div class="price-card">
+        <span class="badge">Meest gekozen</span>
+        <p class="eyebrow" style="margin:0">Het Mobiliteitsdossier 2026</p>
+        <p class="price">€49<small> / eenmalig</small></p>
+        <ul class="feat">
+          <li>90+ pagina's: elk paspoort geanalyseerd op zaken, wonen en belasting</li>
+          <li>De 11 legale routes naar een tweede paspoort (vanaf €0 tot €900k)</li>
+          <li>Visastrategie-matrix: welke combinatie van 2 paspoorten dekt 98% van de wereld</li>
+          <li>Kwartaal-updates bij elke Henley-herziening inbegrepen</li>
+        </ul>
+        <button class="d-cta" onclick="toast('Demo — koppel hier je Stripe/Gumroad checkout')">Download het dossier — €49</button>
+      </div>
+      <div class="lead-card">
+        <h3>Gratis: jouw paspoort-scan</h3>
+        <p>Ontvang een persoonlijk 1-pagina rapport over jouw paspoort + de 3 slimste upgrades. Direct in je inbox.</p>
+        <input type="text" placeholder="Jouw nationaliteit" aria-label="Nationaliteit">
+        <input type="email" placeholder="E-mailadres" aria-label="E-mailadres">
+        <button class="d-cta" style="margin-top:6px" onclick="toast('Demo — koppel hier je e-maillijst (ConvertKit/Mailchimp)')">Stuur mijn gratis scan</button>
+        <p style="font-size:11.5px;margin-top:12px;color:var(--ivory-dim)">Geen spam. Dit is je leadmagnet → e-maillijst → verkoop van het dossier.</p>
+      </div>
+    </div>
+    <div class="rev-models">
+      <div class="rev"><span class="mono">Inkomsten 01</span><b>Affiliate: visumdiensten</b><p>Elk land-dossier eindigt met "Regel je visum" — koppel iVisa/VisaHQ-affiliatelinks. €5–15 commissie per aanvraag, op de plek waar de intentie het hoogst is.</p></div>
+      <div class="rev"><span class="mono">Inkomsten 02</span><b>Leadgen: tweede burgerschap</b><p>Citizenship-by-investment kantoren betalen €50–500 per gekwalificeerde lead. De "gratis scan" hierboven is de trechter.</p></div>
+      <div class="rev"><span class="mono">Inkomsten 03</span><b>Digitaal product</b><p>Het €49-dossier: één keer maken, oneindig verkopen. Kwartaalupdates houden het relevant en rechtvaardigen een abonnementsvariant (€9/kwartaal).</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="logo">ATLAS<span> / Mobility Index</span></span>
+    <p>Gebaseerd op openbare Henley Passport Index-data (2026). "Visumvrij" omvat ook visa on arrival en automatische reisautorisaties (ETA). Controleer vóór vertrek altijd de officiële inreisvoorwaarden — dit is geen juridisch of immigratieadvies.</p>
+  </div>
+</footer>
+
+<div id="overlay" onclick="closeD()"></div>
+<aside id="dossier" role="dialog" aria-modal="true" aria-label="Landendossier"></aside>
+<div class="toast" id="toast"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

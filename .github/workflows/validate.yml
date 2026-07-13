@@ -1,0 +1,30 @@
+name: Validate data
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check manifest.json is in sync with data/countries/
+        run: |
+          npm run build:manifest
+          git diff --exit-code data/manifest.json
+
+      - name: Validate country data against schema
+        run: npm run validate

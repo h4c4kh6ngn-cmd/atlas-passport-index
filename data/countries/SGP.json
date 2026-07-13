@@ -1,0 +1,35 @@
+{
+  "iso2": "SG",
+  "iso3": "SGP",
+  "name": {
+    "nl": "Singapore"
+  },
+  "region": "Azië",
+  "passportIndex": {
+    "score": 192,
+    "maxDestinations": 227,
+    "note": "Al jaren de onbetwiste nummer één: het enige paspoort dat zowel de VS, EU als China visumvrij combineert met vrijwel heel Azië."
+  },
+  "flags": {
+    "euMember": false,
+    "schengenMember": false,
+    "usVisaWaiver": true,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "not_allowed",
+    "note": "Streng verboden; mannen moeten bovendien vóór afstand hun dienstplicht vervullen."
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

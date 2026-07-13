@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/atlas-passport-index/country.schema.json",
+  "title": "Country passport/visa/dual-nationality record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["iso2", "iso3", "name", "region", "passportIndex", "flags", "dualNationality", "sources", "lastUpdated"],
+  "properties": {
+    "iso2": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 code (or XK for Kosovo)."
+    },
+    "iso3": {
+      "type": "string",
+      "pattern": "^[A-Z]{3,4}$",
+      "description": "ISO 3166-1 alpha-3 code (or XKX for Kosovo). Used as the filename stem."
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nl"],
+      "properties": {
+        "nl": { "type": "string", "minLength": 1 }
+      }
+    },
+    "region": {
+      "type": "string",
+      "minLength": 1
+    },
+    "passportIndex": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "maxDestinations", "note"],
+      "properties": {
+        "score": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Visa-free/visa-on-arrival/eTA destination count."
+        },
+        "maxDestinations": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Total destinations tracked by the index, used to compute coverage percentage."
+        },
+        "note": {
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      }
+    },
+    "flags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["euMember", "schengenMember", "usVisaWaiver", "citizenshipByInvestment"],
+      "properties": {
+        "euMember": { "type": "boolean" },
+        "schengenMember": { "type": "boolean" },
+        "usVisaWaiver": { "type": "boolean" },
+        "citizenshipByInvestment": { "type": "boolean" }
+      }
+    },
+    "dualNationality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "note"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["allowed", "restricted", "not_allowed"]
+        },
+        "note": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "Country-specific override text. When null, the frontend falls back to a generic description for the status."
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "url", "accessedDate", "fields"],
+        "properties": {
+          "label": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri" },
+          "accessedDate": { "type": "string", "format": "date" },
+          "fields": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

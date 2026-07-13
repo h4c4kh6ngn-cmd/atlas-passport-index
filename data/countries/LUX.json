@@ -1,0 +1,35 @@
+{
+  "iso2": "LU",
+  "iso3": "LUX",
+  "name": {
+    "nl": "Luxemburg"
+  },
+  "region": "Europa",
+  "passportIndex": {
+    "score": 185,
+    "maxDestinations": 227,
+    "note": null
+  },
+  "flags": {
+    "euMember": true,
+    "schengenMember": true,
+    "usVisaWaiver": true,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "allowed",
+    "note": null
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

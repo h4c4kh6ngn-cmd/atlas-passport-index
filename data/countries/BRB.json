@@ -1,0 +1,35 @@
+{
+  "iso2": "BB",
+  "iso3": "BRB",
+  "name": {
+    "nl": "Barbados"
+  },
+  "region": "Caribisch gebied",
+  "passportIndex": {
+    "score": 164,
+    "maxDestinations": 227,
+    "note": "Sterkste Caribische paspoort — visumvrij VK, Schengen én China."
+  },
+  "flags": {
+    "euMember": false,
+    "schengenMember": false,
+    "usVisaWaiver": false,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "allowed",
+    "note": null
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}

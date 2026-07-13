@@ -1,0 +1,35 @@
+{
+  "iso2": "KZ",
+  "iso3": "KAZ",
+  "name": {
+    "nl": "Kazachstan"
+  },
+  "region": "Azië",
+  "passportIndex": {
+    "score": 78,
+    "maxDestinations": 227,
+    "note": null
+  },
+  "flags": {
+    "euMember": false,
+    "schengenMember": false,
+    "usVisaWaiver": false,
+    "citizenshipByInvestment": false
+  },
+  "dualNationality": {
+    "status": "not_allowed",
+    "note": null
+  },
+  "sources": [
+    {
+      "label": "Henley Passport Index 2026",
+      "url": "https://www.henleyglobal.com/passport-index",
+      "accessedDate": "2026-07-13",
+      "fields": [
+        "passportIndex.score",
+        "flags"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-07-13"
+}
