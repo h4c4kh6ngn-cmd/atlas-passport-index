@@ -2,7 +2,7 @@
   "name": "atlas-passport-index",
   "version": "1.0.0",
   "private": true,
-  "description": "ATLAS Passport Power Index — passport, visa-free-travel, and dual-citizenship data for ~199 countries, stored as versioned JSON with an AI-assisted monthly research workflow.",
+  "description": "Atlasify Passport Power Index — passport, visa-free-travel, and dual-citizenship data for ~199 countries, stored as versioned JSON with an AI-assisted monthly research workflow.",
   "type": "module",
   "engines": {
     "node": ">=20"

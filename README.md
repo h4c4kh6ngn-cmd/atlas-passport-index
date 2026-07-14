@@ -1,4 +1,4 @@
-# ATLAS — Paspoort Power Index
+# Atlasify — Passport Power Index
 
 Passport-power, visa-free-travel, and dual-citizenship reference data for ~199
 countries, stored as versioned JSON with a monthly AI-assisted research
@@ -24,7 +24,7 @@ Each `data/countries/<ISO3>.json` file:
 ```json
 {
   "iso2": "NL", "iso3": "NLD",
-  "name": { "nl": "Nederland" },
+  "name": { "en": "Netherlands", "nl": "Nederland" },
   "region": "Europa",
   "passportIndex": { "score": 185, "maxDestinations": 227, "note": "..." | null },
   "flags": { "euMember": true, "schengenMember": true, "usVisaWaiver": true, "citizenshipByInvestment": false },
