@@ -2,9 +2,10 @@
   "iso2": "SD",
   "iso3": "SDN",
   "name": {
-    "nl": "Soedan"
+    "nl": "Soedan",
+    "en": "Sudan"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 41,
     "maxDestinations": 227,

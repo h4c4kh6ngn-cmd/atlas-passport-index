@@ -2,13 +2,14 @@
   "iso2": "CA",
   "iso3": "CAN",
   "name": {
-    "nl": "Canada"
+    "nl": "Canada",
+    "en": "Canada"
   },
-  "region": "Noord-Amerika",
+  "region": "North America",
   "passportIndex": {
     "score": 181,
     "maxDestinations": 227,
-    "note": "Sterk paspoort én soepel immigratiesysteem: populairste 'upgrade-bestemming' ter wereld."
+    "note": "A strong passport and a flexible immigration system: the world's most popular \"upgrade destination.\""
   },
   "flags": {
     "euMember": false,

@@ -2,9 +2,10 @@
   "iso2": "BW",
   "iso3": "BWA",
   "name": {
-    "nl": "Botswana"
+    "nl": "Botswana",
+    "en": "Botswana"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 82,
     "maxDestinations": 227,

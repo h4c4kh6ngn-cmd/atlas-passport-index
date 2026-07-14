@@ -2,9 +2,10 @@
   "iso2": "PS",
   "iso3": "PSE",
   "name": {
-    "nl": "Palestijnse Gebieden"
+    "nl": "Palestijnse Gebieden",
+    "en": "Palestinian Territories"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 39,
     "maxDestinations": 227,

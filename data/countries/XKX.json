@@ -2,13 +2,14 @@
   "iso2": "XK",
   "iso3": "XKX",
   "name": {
-    "nl": "Kosovo"
+    "nl": "Kosovo",
+    "en": "Kosovo"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 81,
     "maxDestinations": 227,
-    "note": "Sinds 2024 eindelijk visumvrij in Schengen — de grootste sprong van de recente jaren."
+    "note": "Finally visa-free in Schengen since 2024 — the biggest jump of recent years."
   },
   "flags": {
     "euMember": false,

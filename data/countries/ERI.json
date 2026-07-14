@@ -2,9 +2,10 @@
   "iso2": "ER",
   "iso3": "ERI",
   "name": {
-    "nl": "Eritrea"
+    "nl": "Eritrea",
+    "en": "Eritrea"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 38,
     "maxDestinations": 227,

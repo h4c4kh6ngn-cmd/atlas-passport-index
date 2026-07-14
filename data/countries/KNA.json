@@ -2,13 +2,14 @@
   "iso2": "KN",
   "iso3": "KNA",
   "name": {
-    "nl": "Saint Kitts en Nevis"
+    "nl": "Saint Kitts en Nevis",
+    "en": "Saint Kitts and Nevis"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 157,
     "maxDestinations": 227,
-    "note": "Het oudste citizenship-by-investment programma ter wereld (1984). Paspoort verkrijgbaar vanaf ± $250.000 donatie."
+    "note": "The world's oldest citizenship-by-investment program (1984). Passport available from around a $250,000 donation."
   },
   "flags": {
     "euMember": false,

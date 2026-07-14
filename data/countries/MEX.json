@@ -2,13 +2,14 @@
   "iso2": "MX",
   "iso3": "MEX",
   "name": {
-    "nl": "Mexico"
+    "nl": "Mexico",
+    "en": "Mexico"
   },
-  "region": "Noord-Amerika",
+  "region": "North America",
   "passportIndex": {
     "score": 157,
     "maxDestinations": 227,
-    "note": "Visumvrij in Schengen, VK en Japan; de VS blijft de grote ontbrekende buur."
+    "note": "Visa-free in Schengen, the UK, and Japan; the US remains the big missing neighbor."
   },
   "flags": {
     "euMember": false,

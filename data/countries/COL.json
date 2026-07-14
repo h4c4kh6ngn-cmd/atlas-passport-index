@@ -2,9 +2,10 @@
   "iso2": "CO",
   "iso3": "COL",
   "name": {
-    "nl": "Colombia"
+    "nl": "Colombia",
+    "en": "Colombia"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 131,
     "maxDestinations": 227,

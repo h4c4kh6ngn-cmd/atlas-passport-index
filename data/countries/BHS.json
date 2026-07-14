@@ -2,9 +2,10 @@
   "iso2": "BS",
   "iso3": "BHS",
   "name": {
-    "nl": "Bahama's"
+    "nl": "Bahama's",
+    "en": "Bahamas"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 159,
     "maxDestinations": 227,

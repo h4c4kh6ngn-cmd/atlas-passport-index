@@ -2,9 +2,10 @@
   "iso2": "HR",
   "iso3": "HRV",
   "name": {
-    "nl": "Kroatië"
+    "nl": "Kroatië",
+    "en": "Croatia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 182,
     "maxDestinations": 227,

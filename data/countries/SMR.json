@@ -2,9 +2,10 @@
   "iso2": "SM",
   "iso3": "SMR",
   "name": {
-    "nl": "San Marino"
+    "nl": "San Marino",
+    "en": "San Marino"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 167,
     "maxDestinations": 227,

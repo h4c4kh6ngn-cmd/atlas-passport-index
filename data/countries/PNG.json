@@ -2,9 +2,10 @@
   "iso2": "PG",
   "iso3": "PNG",
   "name": {
-    "nl": "Papoea-Nieuw-Guinea"
+    "nl": "Papoea-Nieuw-Guinea",
+    "en": "Papua New Guinea"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 84,
     "maxDestinations": 227,

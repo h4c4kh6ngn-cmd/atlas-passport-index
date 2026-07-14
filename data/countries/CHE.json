@@ -2,13 +2,14 @@
   "iso2": "CH",
   "iso3": "CHE",
   "name": {
-    "nl": "Zwitserland"
+    "nl": "Zwitserland",
+    "en": "Switzerland"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Neutraliteit als troef: welkom in landen waar westerse paspoorten gevoelig liggen."
+    "note": "Neutrality as an asset: welcome in countries where Western passports are viewed with suspicion."
   },
   "flags": {
     "euMember": false,

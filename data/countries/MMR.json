@@ -2,9 +2,10 @@
   "iso2": "MM",
   "iso3": "MMR",
   "name": {
-    "nl": "Myanmar"
+    "nl": "Myanmar",
+    "en": "Myanmar"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 43,
     "maxDestinations": 227,

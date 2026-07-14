@@ -2,13 +2,14 @@
   "iso2": "ME",
   "iso3": "MNE",
   "name": {
-    "nl": "Montenegro"
+    "nl": "Montenegro",
+    "en": "Montenegro"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 127,
     "maxDestinations": 227,
-    "note": "EU-kandidaat: elke stap richting lidmaatschap tilt dit paspoort verder omhoog."
+    "note": "An EU candidate: every step toward membership lifts this passport further up the rankings."
   },
   "flags": {
     "euMember": false,

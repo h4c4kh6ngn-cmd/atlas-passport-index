@@ -2,9 +2,10 @@
   "iso2": "MO",
   "iso3": "MAC",
   "name": {
-    "nl": "Macau"
+    "nl": "Macau",
+    "en": "Macau"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 142,
     "maxDestinations": 227,

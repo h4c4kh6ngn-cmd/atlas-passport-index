@@ -2,13 +2,14 @@
   "iso2": "DM",
   "iso3": "DMA",
   "name": {
-    "nl": "Dominica"
+    "nl": "Dominica",
+    "en": "Dominica"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 145,
     "maxDestinations": 227,
-    "note": "Bekendste budget-CBI: paspoort vanaf ± $200.000 donatie."
+    "note": "The best-known budget CBI: passport from around a $200,000 donation."
   },
   "flags": {
     "euMember": false,

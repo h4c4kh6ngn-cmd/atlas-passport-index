@@ -2,13 +2,14 @@
   "iso2": "SE",
   "iso3": "SWE",
   "name": {
-    "nl": "Zweden"
+    "nl": "Zweden",
+    "en": "Sweden"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 186,
     "maxDestinations": 227,
-    "note": "Sterkste EU-paspoort van 2026 — combineert Schengen, VS-toegang en een uitstekende reputatie wereldwijd."
+    "note": "The strongest EU passport of 2026 — combines Schengen, US access, and an excellent reputation worldwide."
   },
   "flags": {
     "euMember": true,

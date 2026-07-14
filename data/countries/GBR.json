@@ -2,13 +2,14 @@
   "iso2": "GB",
   "iso3": "GBR",
   "name": {
-    "nl": "Verenigd Koninkrijk"
+    "nl": "Verenigd Koninkrijk",
+    "en": "United Kingdom"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 182,
     "maxDestinations": 227,
-    "note": "Stond in 2015 op nummer 1; sinds Brexit gestaag gedaald maar nog altijd top-10."
+    "note": "Ranked number 1 in 2015; has steadily declined since Brexit but still sits in the top 10."
   },
   "flags": {
     "euMember": false,

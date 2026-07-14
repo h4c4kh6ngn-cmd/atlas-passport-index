@@ -2,9 +2,10 @@
   "iso2": "SI",
   "iso3": "SVN",
   "name": {
-    "nl": "Slovenië"
+    "nl": "Slovenië",
+    "en": "Slovenia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 183,
     "maxDestinations": 227,

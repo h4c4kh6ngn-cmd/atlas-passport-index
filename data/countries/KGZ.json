@@ -2,9 +2,10 @@
   "iso2": "KG",
   "iso3": "KGZ",
   "name": {
-    "nl": "Kirgizië"
+    "nl": "Kirgizië",
+    "en": "Kyrgyzstan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 60,
     "maxDestinations": 227,

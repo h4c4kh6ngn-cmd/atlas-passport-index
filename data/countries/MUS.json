@@ -2,13 +2,14 @@
   "iso2": "MU",
   "iso3": "MUS",
   "name": {
-    "nl": "Mauritius"
+    "nl": "Mauritius",
+    "en": "Mauritius"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 148,
     "maxDestinations": 227,
-    "note": "Fiscale hub van Afrika; sterk paspoort en populair vestigingsland."
+    "note": "Africa's fiscal hub; a strong passport and a popular country to relocate to."
   },
   "flags": {
     "euMember": false,

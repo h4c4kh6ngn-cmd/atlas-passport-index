@@ -2,9 +2,10 @@
   "iso2": "LR",
   "iso3": "LBR",
   "name": {
-    "nl": "Liberia"
+    "nl": "Liberia",
+    "en": "Liberia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 49,
     "maxDestinations": 227,

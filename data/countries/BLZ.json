@@ -2,9 +2,10 @@
   "iso2": "BZ",
   "iso3": "BLZ",
   "name": {
-    "nl": "Belize"
+    "nl": "Belize",
+    "en": "Belize"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 100,
     "maxDestinations": 227,

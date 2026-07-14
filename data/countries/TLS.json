@@ -2,9 +2,10 @@
   "iso2": "TL",
   "iso3": "TLS",
   "name": {
-    "nl": "Oost-Timor"
+    "nl": "Oost-Timor",
+    "en": "Timor-Leste"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 92,
     "maxDestinations": 227,

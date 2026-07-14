@@ -2,9 +2,10 @@
   "iso2": "BY",
   "iso3": "BLR",
   "name": {
-    "nl": "Belarus"
+    "nl": "Belarus",
+    "en": "Belarus"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 77,
     "maxDestinations": 227,

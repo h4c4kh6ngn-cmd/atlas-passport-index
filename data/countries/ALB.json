@@ -2,13 +2,14 @@
   "iso2": "AL",
   "iso3": "ALB",
   "name": {
-    "nl": "Albanië"
+    "nl": "Albanië",
+    "en": "Albania"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 120,
     "maxDestinations": 227,
-    "note": "Een van de grootste stijgers van het decennium (+20 plekken)."
+    "note": "One of the biggest climbers of the decade (+20 places)."
   },
   "flags": {
     "euMember": false,

@@ -2,13 +2,14 @@
   "iso2": "QA",
   "iso3": "QAT",
   "name": {
-    "nl": "Qatar"
+    "nl": "Qatar",
+    "en": "Qatar"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 112,
     "maxDestinations": 227,
-    "note": "Uniek: het enige Golf-paspoort in het Amerikaanse Visa Waiver Program (sinds 2024)."
+    "note": "Unique: the only Gulf passport in the US Visa Waiver Program (since 2024)."
   },
   "flags": {
     "euMember": false,

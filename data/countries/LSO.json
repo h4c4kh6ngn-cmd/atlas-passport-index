@@ -2,9 +2,10 @@
   "iso2": "LS",
   "iso3": "LSO",
   "name": {
-    "nl": "Lesotho"
+    "nl": "Lesotho",
+    "en": "Lesotho"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 74,
     "maxDestinations": 227,

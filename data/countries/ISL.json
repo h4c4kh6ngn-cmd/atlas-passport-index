@@ -2,9 +2,10 @@
   "iso2": "IS",
   "iso3": "ISL",
   "name": {
-    "nl": "IJsland"
+    "nl": "IJsland",
+    "en": "Iceland"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 180,
     "maxDestinations": 227,

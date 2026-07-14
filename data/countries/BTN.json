@@ -2,9 +2,10 @@
   "iso2": "BT",
   "iso3": "BTN",
   "name": {
-    "nl": "Bhutan"
+    "nl": "Bhutan",
+    "en": "Bhutan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 48,
     "maxDestinations": 227,

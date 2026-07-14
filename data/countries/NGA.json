@@ -2,13 +2,14 @@
   "iso2": "NG",
   "iso3": "NGA",
   "name": {
-    "nl": "Nigeria"
+    "nl": "Nigeria",
+    "en": "Nigeria"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 44,
     "maxDestinations": 227,
-    "note": "Grootste economie van Afrika, maar een van de zwakste paspoorten van het continent."
+    "note": "Africa's largest economy, but one of the continent's weakest passports."
   },
   "flags": {
     "euMember": false,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "allowed",
-    "note": "Toegestaan voor Nigerianen van geboorte; genaturaliseerde burgers mogen niet."
+    "note": "Allowed for Nigerians by birth; naturalized citizens may not hold dual nationality."
   },
   "sources": [
     {

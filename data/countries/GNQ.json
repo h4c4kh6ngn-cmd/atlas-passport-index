@@ -2,9 +2,10 @@
   "iso2": "GQ",
   "iso3": "GNQ",
   "name": {
-    "nl": "Equatoriaal-Guinea"
+    "nl": "Equatoriaal-Guinea",
+    "en": "Equatorial Guinea"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 53,
     "maxDestinations": 227,

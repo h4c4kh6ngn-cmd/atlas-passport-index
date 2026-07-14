@@ -2,9 +2,10 @@
   "iso2": "EG",
   "iso3": "EGY",
   "name": {
-    "nl": "Egypte"
+    "nl": "Egypte",
+    "en": "Egypt"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 50,
     "maxDestinations": 227,

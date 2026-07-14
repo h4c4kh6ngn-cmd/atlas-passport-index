@@ -2,9 +2,10 @@
   "iso2": "ET",
   "iso3": "ETH",
   "name": {
-    "nl": "Ethiopië"
+    "nl": "Ethiopië",
+    "en": "Ethiopia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 43,
     "maxDestinations": 227,

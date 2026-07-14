@@ -2,9 +2,10 @@
   "iso2": "BN",
   "iso3": "BRN",
   "name": {
-    "nl": "Brunei"
+    "nl": "Brunei",
+    "en": "Brunei"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 163,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "HU",
   "iso3": "HUN",
   "name": {
-    "nl": "Hongarije"
+    "nl": "Hongarije",
+    "en": "Hungary"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 183,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "CG",
   "iso3": "COG",
   "name": {
-    "nl": "Congo-Brazzaville"
+    "nl": "Congo-Brazzaville",
+    "en": "Republic of the Congo"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 46,
     "maxDestinations": 227,

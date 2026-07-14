@@ -2,9 +2,10 @@
   "iso2": "RO",
   "iso3": "ROU",
   "name": {
-    "nl": "Roemenië"
+    "nl": "Roemenië",
+    "en": "Romania"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 177,
     "maxDestinations": 227,

@@ -2,13 +2,14 @@
   "iso2": "PK",
   "iso3": "PAK",
   "name": {
-    "nl": "Pakistan"
+    "nl": "Pakistan",
+    "en": "Pakistan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 32,
     "maxDestinations": 227,
-    "note": "Al jaren in de onderste vijf, ondanks een bevolking van 240 miljoen."
+    "note": "In the bottom five for years, despite a population of 240 million."
   },
   "flags": {
     "euMember": false,

@@ -2,9 +2,10 @@
   "iso2": "GW",
   "iso3": "GNB",
   "name": {
-    "nl": "Guinee-Bissau"
+    "nl": "Guinee-Bissau",
+    "en": "Guinea-Bissau"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 51,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "ZM",
   "iso3": "ZMB",
   "name": {
-    "nl": "Zambia"
+    "nl": "Zambia",
+    "en": "Zambia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 65,
     "maxDestinations": 227,

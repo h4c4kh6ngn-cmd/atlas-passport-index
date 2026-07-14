@@ -2,9 +2,10 @@
   "iso2": "SR",
   "iso3": "SUR",
   "name": {
-    "nl": "Suriname"
+    "nl": "Suriname",
+    "en": "Suriname"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 76,
     "maxDestinations": 227,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "not_allowed",
-    "note": "Suriname staat geen dubbele nationaliteit toe — relevant voor de grote diaspora in Nederland."
+    "note": "Suriname does not allow dual nationality — relevant given the large diaspora in the Netherlands."
   },
   "sources": [
     {

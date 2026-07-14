@@ -2,9 +2,10 @@
   "iso2": "MA",
   "iso3": "MAR",
   "name": {
-    "nl": "Marokko"
+    "nl": "Marokko",
+    "en": "Morocco"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 72,
     "maxDestinations": 227,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "allowed",
-    "note": "Marokko staat dubbele nationaliteit volledig toe — Marokkaans burgerschap is bovendien vrijwel onopzegbaar."
+    "note": "Morocco fully allows dual nationality — Moroccan citizenship is also nearly impossible to renounce."
   },
   "sources": [
     {

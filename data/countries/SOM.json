@@ -2,9 +2,10 @@
   "iso2": "SO",
   "iso3": "SOM",
   "name": {
-    "nl": "Somalië"
+    "nl": "Somalië",
+    "en": "Somalia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 33,
     "maxDestinations": 227,

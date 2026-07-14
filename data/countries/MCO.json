@@ -2,9 +2,10 @@
   "iso2": "MC",
   "iso3": "MCO",
   "name": {
-    "nl": "Monaco"
+    "nl": "Monaco",
+    "en": "Monaco"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 177,
     "maxDestinations": 227,

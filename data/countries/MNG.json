@@ -2,9 +2,10 @@
   "iso2": "MN",
   "iso3": "MNG",
   "name": {
-    "nl": "Mongolië"
+    "nl": "Mongolië",
+    "en": "Mongolia"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 64,
     "maxDestinations": 227,

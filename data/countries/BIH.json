@@ -2,9 +2,10 @@
   "iso2": "BA",
   "iso3": "BIH",
   "name": {
-    "nl": "Bosnië en Herzegovina"
+    "nl": "Bosnië en Herzegovina",
+    "en": "Bosnia and Herzegovina"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 121,
     "maxDestinations": 227,

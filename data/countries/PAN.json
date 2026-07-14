@@ -2,13 +2,14 @@
   "iso2": "PA",
   "iso3": "PAN",
   "name": {
-    "nl": "Panama"
+    "nl": "Panama",
+    "en": "Panama"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 147,
     "maxDestinations": 227,
-    "note": "Friendly Nations Visa maakt verblijf (en later paspoort) opvallend toegankelijk."
+    "note": "The Friendly Nations Visa makes residency (and later, a passport) remarkably accessible."
   },
   "flags": {
     "euMember": false,

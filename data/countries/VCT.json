@@ -2,9 +2,10 @@
   "iso2": "VC",
   "iso3": "VCT",
   "name": {
-    "nl": "Saint Vincent en de Grenadines"
+    "nl": "Saint Vincent en de Grenadines",
+    "en": "Saint Vincent and the Grenadines"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 158,
     "maxDestinations": 227,

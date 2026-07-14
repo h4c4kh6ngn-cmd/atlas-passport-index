@@ -2,9 +2,10 @@
   "iso2": "TW",
   "iso3": "TWN",
   "name": {
-    "nl": "Taiwan"
+    "nl": "Taiwan",
+    "en": "Taiwan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 135,
     "maxDestinations": 227,

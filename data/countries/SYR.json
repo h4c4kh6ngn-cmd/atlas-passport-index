@@ -2,9 +2,10 @@
   "iso2": "SY",
   "iso3": "SYR",
   "name": {
-    "nl": "Syrië"
+    "nl": "Syrië",
+    "en": "Syria"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 26,
     "maxDestinations": 227,

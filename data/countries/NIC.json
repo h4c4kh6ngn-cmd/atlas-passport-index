@@ -2,9 +2,10 @@
   "iso2": "NI",
   "iso3": "NIC",
   "name": {
-    "nl": "Nicaragua"
+    "nl": "Nicaragua",
+    "en": "Nicaragua"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 126,
     "maxDestinations": 227,

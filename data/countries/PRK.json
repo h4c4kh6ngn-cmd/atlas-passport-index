@@ -2,9 +2,10 @@
   "iso2": "KP",
   "iso3": "PRK",
   "name": {
-    "nl": "Noord-Korea"
+    "nl": "Noord-Korea",
+    "en": "North Korea"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 36,
     "maxDestinations": 227,

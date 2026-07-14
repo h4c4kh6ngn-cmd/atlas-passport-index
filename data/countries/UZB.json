@@ -2,9 +2,10 @@
   "iso2": "UZ",
   "iso3": "UZB",
   "name": {
-    "nl": "Oezbekistan"
+    "nl": "Oezbekistan",
+    "en": "Uzbekistan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 60,
     "maxDestinations": 227,

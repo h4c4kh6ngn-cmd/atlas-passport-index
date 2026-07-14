@@ -2,13 +2,14 @@
   "iso2": "PY",
   "iso3": "PRY",
   "name": {
-    "nl": "Paraguay"
+    "nl": "Paraguay",
+    "en": "Paraguay"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 145,
     "maxDestinations": 227,
-    "note": "Laagdrempeligste verblijfsvergunning van Zuid-Amerika; naturalisatie na 3 jaar mogelijk."
+    "note": "South America's lowest-barrier residency permit; naturalization possible after 3 years."
   },
   "flags": {
     "euMember": false,

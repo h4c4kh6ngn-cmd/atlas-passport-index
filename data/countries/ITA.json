@@ -2,13 +2,14 @@
   "iso2": "IT",
   "iso3": "ITA",
   "name": {
-    "nl": "Italië"
+    "nl": "Italië",
+    "en": "Italy"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Populairste 'tweede paspoort' ter wereld via afstamming (jure sanguinis) — miljoenen komen in aanmerking."
+    "note": "The world's most popular \"second passport\" via descent (jure sanguinis) — millions are eligible."
   },
   "flags": {
     "euMember": true,

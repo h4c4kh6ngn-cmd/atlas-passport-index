@@ -2,9 +2,10 @@
   "iso2": "CU",
   "iso3": "CUB",
   "name": {
-    "nl": "Cuba"
+    "nl": "Cuba",
+    "en": "Cuba"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 57,
     "maxDestinations": 227,

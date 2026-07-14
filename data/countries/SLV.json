@@ -2,9 +2,10 @@
   "iso2": "SV",
   "iso3": "SLV",
   "name": {
-    "nl": "El Salvador"
+    "nl": "El Salvador",
+    "en": "El Salvador"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 131,
     "maxDestinations": 227,

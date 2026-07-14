@@ -2,13 +2,14 @@
   "iso2": "IE",
   "iso3": "IRL",
   "name": {
-    "nl": "Ierland"
+    "nl": "Ierland",
+    "en": "Ireland"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Uniek: EU-burgerschap plus vrij wonen en werken in het VK (Common Travel Area). Het enige paspoort met beide."
+    "note": "Unique: EU citizenship plus the right to live and work freely in the UK (Common Travel Area). The only passport with both."
   },
   "flags": {
     "euMember": true,

@@ -2,9 +2,10 @@
   "iso2": "LY",
   "iso3": "LBY",
   "name": {
-    "nl": "Libië"
+    "nl": "Libië",
+    "en": "Libya"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 39,
     "maxDestinations": 227,

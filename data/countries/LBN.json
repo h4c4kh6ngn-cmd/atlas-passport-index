@@ -2,9 +2,10 @@
   "iso2": "LB",
   "iso3": "LBN",
   "name": {
-    "nl": "Libanon"
+    "nl": "Libanon",
+    "en": "Lebanon"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 43,
     "maxDestinations": 227,

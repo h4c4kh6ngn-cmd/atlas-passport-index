@@ -2,13 +2,14 @@
   "iso2": "ID",
   "iso3": "IDN",
   "name": {
-    "nl": "Indonesië"
+    "nl": "Indonesië",
+    "en": "Indonesia"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 72,
     "maxDestinations": 227,
-    "note": "Vierde economie van Azië, maar het paspoort blijft achter — Schengen en de VS vereisen een visum."
+    "note": "Asia's fourth-largest economy, but the passport lags behind — Schengen and the US both require a visa."
   },
   "flags": {
     "euMember": false,

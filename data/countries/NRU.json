@@ -2,9 +2,10 @@
   "iso2": "NR",
   "iso3": "NRU",
   "name": {
-    "nl": "Nauru"
+    "nl": "Nauru",
+    "en": "Nauru"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 87,
     "maxDestinations": 227,

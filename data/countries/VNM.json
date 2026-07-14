@@ -2,13 +2,14 @@
   "iso2": "VN",
   "iso3": "VNM",
   "name": {
-    "nl": "Vietnam"
+    "nl": "Vietnam",
+    "en": "Vietnam"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 48,
     "maxDestinations": 227,
-    "note": "Snelgroeiende economie, laag geklasseerd paspoort — verbetering wordt verwacht naarmate handelsverdragen groeien."
+    "note": "A fast-growing economy with a low-ranked passport — improvement is expected as trade agreements expand."
   },
   "flags": {
     "euMember": false,

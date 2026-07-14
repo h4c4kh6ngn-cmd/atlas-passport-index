@@ -2,9 +2,10 @@
   "iso2": "MK",
   "iso3": "MKD",
   "name": {
-    "nl": "Noord-Macedonië"
+    "nl": "Noord-Macedonië",
+    "en": "North Macedonia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 127,
     "maxDestinations": 227,

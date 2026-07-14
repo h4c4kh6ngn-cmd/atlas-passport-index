@@ -2,13 +2,14 @@
   "iso2": "ES",
   "iso3": "ESP",
   "name": {
-    "nl": "Spanje"
+    "nl": "Spanje",
+    "en": "Spain"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Sterkste band met Latijns-Amerika: versnelde naturalisatie voor Spaanstaligen maakt het een populaire eindbestemming."
+    "note": "The strongest ties to Latin America: accelerated naturalization for Spanish speakers makes it a popular final destination."
   },
   "flags": {
     "euMember": true,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "restricted",
-    "note": "Alleen vrij met Ibero-Amerikaanse landen, Filipijnen, Portugal, Andorra en Equatoriaal-Guinea; anders formeel afstand vereist."
+    "note": "Only unrestricted with Ibero-American countries, the Philippines, Portugal, Andorra, and Equatorial Guinea; otherwise formal renunciation is required."
   },
   "sources": [
     {

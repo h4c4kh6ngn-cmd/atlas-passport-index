@@ -2,9 +2,10 @@
   "iso2": "BH",
   "iso3": "BHR",
   "name": {
-    "nl": "Bahrein"
+    "nl": "Bahrein",
+    "en": "Bahrain"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 87,
     "maxDestinations": 227,

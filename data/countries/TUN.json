@@ -2,9 +2,10 @@
   "iso2": "TN",
   "iso3": "TUN",
   "name": {
-    "nl": "Tunesië"
+    "nl": "Tunesië",
+    "en": "Tunisia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 67,
     "maxDestinations": 227,

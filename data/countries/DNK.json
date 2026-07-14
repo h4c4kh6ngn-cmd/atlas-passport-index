@@ -2,9 +2,10 @@
   "iso2": "DK",
   "iso3": "DNK",
   "name": {
-    "nl": "Denemarken"
+    "nl": "Denemarken",
+    "en": "Denmark"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,

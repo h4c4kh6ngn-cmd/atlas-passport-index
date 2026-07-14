@@ -2,9 +2,10 @@
   "iso2": "OM",
   "iso3": "OMN",
   "name": {
-    "nl": "Oman"
+    "nl": "Oman",
+    "en": "Oman"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 86,
     "maxDestinations": 227,

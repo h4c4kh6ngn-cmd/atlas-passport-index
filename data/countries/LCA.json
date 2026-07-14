@@ -2,13 +2,14 @@
   "iso2": "LC",
   "iso3": "LCA",
   "name": {
-    "nl": "Saint Lucia"
+    "nl": "Saint Lucia",
+    "en": "Saint Lucia"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 146,
     "maxDestinations": 227,
-    "note": "Goedkoopste serieuze CBI-route: vanaf ± $240.000, ook via staatsobligaties."
+    "note": "The cheapest serious CBI route: from around $240,000, also available via government bonds."
   },
   "flags": {
     "euMember": false,

@@ -2,9 +2,10 @@
   "iso2": "KH",
   "iso3": "KHM",
   "name": {
-    "nl": "Cambodja"
+    "nl": "Cambodja",
+    "en": "Cambodia"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 48,
     "maxDestinations": 227,

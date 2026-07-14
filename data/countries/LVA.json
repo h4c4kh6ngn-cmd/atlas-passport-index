@@ -2,9 +2,10 @@
   "iso2": "LV",
   "iso3": "LVA",
   "name": {
-    "nl": "Letland"
+    "nl": "Letland",
+    "en": "Latvia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 182,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "TM",
   "iso3": "TKM",
   "name": {
-    "nl": "Turkmenistan"
+    "nl": "Turkmenistan",
+    "en": "Turkmenistan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 46,
     "maxDestinations": 227,

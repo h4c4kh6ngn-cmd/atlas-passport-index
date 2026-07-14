@@ -2,9 +2,10 @@
   "iso2": "DZ",
   "iso3": "DZA",
   "name": {
-    "nl": "Algerije"
+    "nl": "Algerije",
+    "en": "Algeria"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 55,
     "maxDestinations": 227,

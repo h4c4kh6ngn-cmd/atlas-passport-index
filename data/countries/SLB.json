@@ -2,9 +2,10 @@
   "iso2": "SB",
   "iso3": "SLB",
   "name": {
-    "nl": "Salomonseilanden"
+    "nl": "Salomonseilanden",
+    "en": "Solomon Islands"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 132,
     "maxDestinations": 227,

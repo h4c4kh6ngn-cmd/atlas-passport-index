@@ -2,13 +2,14 @@
   "iso2": "SA",
   "iso3": "SAU",
   "name": {
-    "nl": "Saoedi-Arabië"
+    "nl": "Saoedi-Arabië",
+    "en": "Saudi Arabia"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 88,
     "maxDestinations": 227,
-    "note": "Economische reus, bescheiden paspoort: reciprociteit staat nog in de kinderschoenen."
+    "note": "An economic giant with a modest passport: reciprocity is still in its infancy."
   },
   "flags": {
     "euMember": false,

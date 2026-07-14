@@ -2,13 +2,14 @@
   "iso2": "FR",
   "iso3": "FRA",
   "name": {
-    "nl": "Frankrijk"
+    "nl": "Frankrijk",
+    "en": "France"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Naast reisvrijheid: toegang tot Franse overzeese gebieden op vijf continenten."
+    "note": "Beyond travel freedom: access to French overseas territories on five continents."
   },
   "flags": {
     "euMember": true,

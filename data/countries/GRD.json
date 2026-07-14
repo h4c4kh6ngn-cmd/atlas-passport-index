@@ -2,13 +2,14 @@
   "iso2": "GD",
   "iso3": "GRD",
   "name": {
-    "nl": "Grenada"
+    "nl": "Grenada",
+    "en": "Grenada"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 148,
     "maxDestinations": 227,
-    "note": "CBI-paspoort met unieke troef: als enige Caribische programma visumvrij naar China én E-2 investeerdersvisum-verdrag met de VS."
+    "note": "A CBI passport with a unique edge: the only Caribbean program with visa-free access to China and an E-2 investor visa treaty with the US."
   },
   "flags": {
     "euMember": false,

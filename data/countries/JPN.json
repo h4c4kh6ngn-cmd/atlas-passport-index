@@ -2,13 +2,14 @@
   "iso2": "JP",
   "iso3": "JPN",
   "name": {
-    "nl": "Japan"
+    "nl": "Japan",
+    "en": "Japan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 187,
     "maxDestinations": 227,
-    "note": "Decennialang de gouden standaard; ijzersterke diplomatie en een van de weinige paspoorten met visumvrij China."
+    "note": "The gold standard for decades; rock-solid diplomacy and one of the few passports with visa-free access to China."
   },
   "flags": {
     "euMember": false,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "not_allowed",
-    "note": "Japanners moeten vóór hun 22e kiezen; handhaving is mild maar de wet is streng."
+    "note": "Japanese nationals must choose before turning 22; enforcement is lax but the law is strict."
   },
   "sources": [
     {

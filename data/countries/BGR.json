@@ -2,9 +2,10 @@
   "iso2": "BG",
   "iso3": "BGR",
   "name": {
-    "nl": "Bulgarije"
+    "nl": "Bulgarije",
+    "en": "Bulgaria"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 177,
     "maxDestinations": 227,

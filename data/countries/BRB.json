@@ -2,13 +2,14 @@
   "iso2": "BB",
   "iso3": "BRB",
   "name": {
-    "nl": "Barbados"
+    "nl": "Barbados",
+    "en": "Barbados"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 164,
     "maxDestinations": 227,
-    "note": "Sterkste Caribische paspoort — visumvrij VK, Schengen én China."
+    "note": "The strongest Caribbean passport — visa-free to the UK, Schengen, and China."
   },
   "flags": {
     "euMember": false,

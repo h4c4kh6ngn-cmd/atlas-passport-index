@@ -2,9 +2,10 @@
   "iso2": "SL",
   "iso3": "SLE",
   "name": {
-    "nl": "Sierra Leone"
+    "nl": "Sierra Leone",
+    "en": "Sierra Leone"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 62,
     "maxDestinations": 227,

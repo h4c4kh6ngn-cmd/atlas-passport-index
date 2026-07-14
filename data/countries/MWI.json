@@ -2,9 +2,10 @@
   "iso2": "MW",
   "iso3": "MWI",
   "name": {
-    "nl": "Malawi"
+    "nl": "Malawi",
+    "en": "Malawi"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 71,
     "maxDestinations": 227,

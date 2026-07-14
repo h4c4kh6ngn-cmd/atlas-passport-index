@@ -2,9 +2,10 @@
   "iso2": "VA",
   "iso3": "VAT",
   "name": {
-    "nl": "Vaticaanstad"
+    "nl": "Vaticaanstad",
+    "en": "Vatican City"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 151,
     "maxDestinations": 227,

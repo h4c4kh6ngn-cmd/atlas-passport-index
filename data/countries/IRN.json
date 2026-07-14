@@ -2,9 +2,10 @@
   "iso2": "IR",
   "iso3": "IRN",
   "name": {
-    "nl": "Iran"
+    "nl": "Iran",
+    "en": "Iran"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 40,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "JO",
   "iso3": "JOR",
   "name": {
-    "nl": "Jordanië"
+    "nl": "Jordanië",
+    "en": "Jordan"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 50,
     "maxDestinations": 227,

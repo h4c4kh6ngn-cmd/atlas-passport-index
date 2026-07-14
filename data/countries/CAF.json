@@ -2,9 +2,10 @@
   "iso2": "CF",
   "iso3": "CAF",
   "name": {
-    "nl": "Centraal-Afrikaanse Republiek"
+    "nl": "Centraal-Afrikaanse Republiek",
+    "en": "Central African Republic"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 49,
     "maxDestinations": 227,

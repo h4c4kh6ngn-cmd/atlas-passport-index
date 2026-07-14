@@ -82,7 +82,7 @@ function coerce(field, rawValue) {
 }
 
 async function verifyCountry(record, client) {
-  const prompt = `Country: ${record.name.nl} (${record.iso3} / ${record.iso2})
+  const prompt = `Country: ${record.name.en} (${record.iso3} / ${record.iso2})
 Current data:
   passportIndex.score = ${record.passportIndex.score}
   flags.euMember = ${record.flags.euMember}
@@ -195,7 +195,7 @@ async function main() {
       changedCount++;
       for (const a of applied) {
         summaryRows.push(
-          `| ${record.name.nl} (${iso3}) | \`${a.field}\` | ${a.oldValue} → ${a.newValue} | [${a.sourceLabel || "bron"}](${a.sourceUrl}) |`
+          `| ${record.name.en} (${iso3}) | \`${a.field}\` | ${a.oldValue} → ${a.newValue} | [${a.sourceLabel || "source"}](${a.sourceUrl}) |`
         );
       }
       console.log(`  ${iso3}: ${applied.length} change(s) applied`);
@@ -203,17 +203,17 @@ async function main() {
   });
 
   const prBodyLines = [
-    "## Maandelijkse data-verificatie (AI-assisted)",
+    "## Monthly data verification (AI-assisted)",
     "",
-    `Model: \`${MODEL}\`. Elke wijziging hieronder is onderbouwd met een bron die dit script tijdens deze run heeft opgehaald via web search — voorstellen zonder geldige bron-URL zijn automatisch verworpen.`,
+    `Model: \`${MODEL}\`. Every change below is backed by a source this script actually retrieved via web search during this run — proposals without a valid source URL are automatically rejected.`,
     "",
   ];
   if (summaryRows.length > 0) {
-    prBodyLines.push("| Land | Veld | Oud → Nieuw | Bron |", "|---|---|---|---|", ...summaryRows);
+    prBodyLines.push("| Country | Field | Old → New | Source |", "|---|---|---|---|", ...summaryRows);
   } else {
-    prBodyLines.push("_Geen wijzigingen gevonden in deze run._");
+    prBodyLines.push("_No changes found in this run._");
   }
-  prBodyLines.push("", "**Controleer elke bron voordat je deze PR merget.** Deze workflow publiceert nooit automatisch en heeft geen merge-permissie.");
+  prBodyLines.push("", "**Review every source before merging this PR.** This workflow never publishes automatically and has no merge permission.");
 
   const prBodyPath = path.join(process.env.RUNNER_TEMP || os.tmpdir(), "pr-body.md");
   fs.writeFileSync(prBodyPath, prBodyLines.join("\n") + "\n");

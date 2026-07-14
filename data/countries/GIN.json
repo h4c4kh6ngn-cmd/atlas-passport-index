@@ -2,9 +2,10 @@
   "iso2": "GN",
   "iso3": "GIN",
   "name": {
-    "nl": "Guinee"
+    "nl": "Guinee",
+    "en": "Guinea"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 53,
     "maxDestinations": 227,

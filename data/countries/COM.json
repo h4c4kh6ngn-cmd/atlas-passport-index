@@ -2,9 +2,10 @@
   "iso2": "KM",
   "iso3": "COM",
   "name": {
-    "nl": "Comoren"
+    "nl": "Comoren",
+    "en": "Comoros"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 51,
     "maxDestinations": 227,

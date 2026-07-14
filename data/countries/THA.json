@@ -2,9 +2,10 @@
   "iso2": "TH",
   "iso3": "THA",
   "name": {
-    "nl": "Thailand"
+    "nl": "Thailand",
+    "en": "Thailand"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 78,
     "maxDestinations": 227,

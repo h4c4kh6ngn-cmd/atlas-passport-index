@@ -2,13 +2,14 @@
   "iso2": "AG",
   "iso3": "ATG",
   "name": {
-    "nl": "Antigua en Barbuda"
+    "nl": "Antigua en Barbuda",
+    "en": "Antigua and Barbuda"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 155,
     "maxDestinations": 227,
-    "note": "CBI-programma vanaf ± $230.000 — inclusief visumvrij Schengen en VK."
+    "note": "CBI program from around $230,000 — includes visa-free Schengen and UK access."
   },
   "flags": {
     "euMember": false,

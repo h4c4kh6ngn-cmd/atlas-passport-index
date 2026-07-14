@@ -2,13 +2,14 @@
   "iso2": "PT",
   "iso3": "PRT",
   "name": {
-    "nl": "Portugal"
+    "nl": "Portugal",
+    "en": "Portugal"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 184,
     "maxDestinations": 227,
-    "note": "Dé naturalisatie-favoriet: EU-paspoort mogelijk na 5 jaar verblijf — de kortste serieuze route van Europa."
+    "note": "The naturalization favorite: an EU passport possible after 5 years of residency — Europe's shortest serious route."
   },
   "flags": {
     "euMember": true,

@@ -2,9 +2,10 @@
   "iso2": "CY",
   "iso3": "CYP",
   "name": {
-    "nl": "Cyprus"
+    "nl": "Cyprus",
+    "en": "Cyprus"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 174,
     "maxDestinations": 227,

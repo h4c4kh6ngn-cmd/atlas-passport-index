@@ -2,9 +2,10 @@
   "iso2": "NA",
   "iso3": "NAM",
   "name": {
-    "nl": "Namibië"
+    "nl": "Namibië",
+    "en": "Namibia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 76,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "GT",
   "iso3": "GTM",
   "name": {
-    "nl": "Guatemala"
+    "nl": "Guatemala",
+    "en": "Guatemala"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 132,
     "maxDestinations": 227,

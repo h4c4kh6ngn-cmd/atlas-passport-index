@@ -2,13 +2,14 @@
   "iso2": "VU",
   "iso3": "VUT",
   "name": {
-    "nl": "Vanuatu"
+    "nl": "Vanuatu",
+    "en": "Vanuatu"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 89,
     "maxDestinations": 227,
-    "note": "Snelste CBI ter wereld (± 2 maanden), maar verloor visumvrij Schengen — een les in programma-risico."
+    "note": "The world's fastest CBI (around 2 months), but lost visa-free Schengen access — a lesson in program risk."
   },
   "flags": {
     "euMember": false,

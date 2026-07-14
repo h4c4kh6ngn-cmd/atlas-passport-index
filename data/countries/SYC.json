@@ -2,13 +2,14 @@
   "iso2": "SC",
   "iso3": "SYC",
   "name": {
-    "nl": "Seychellen"
+    "nl": "Seychellen",
+    "en": "Seychelles"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 155,
     "maxDestinations": 227,
-    "note": "Sterkste paspoort van Afrika."
+    "note": "Africa's strongest passport."
   },
   "flags": {
     "euMember": false,

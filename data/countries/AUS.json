@@ -2,13 +2,14 @@
   "iso2": "AU",
   "iso3": "AUS",
   "name": {
-    "nl": "Australië"
+    "nl": "Australië",
+    "en": "Australia"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 182,
     "maxDestinations": 227,
-    "note": "Wederzijds woonrecht met Nieuw-Zeeland; e-visa met China versoepelen snel."
+    "note": "Reciprocal residency rights with New Zealand; e-visa arrangements with China are loosening quickly."
   },
   "flags": {
     "euMember": false,

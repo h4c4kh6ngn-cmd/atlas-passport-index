@@ -2,13 +2,14 @@
   "iso2": "DE",
   "iso3": "DEU",
   "name": {
-    "nl": "Duitsland"
+    "nl": "Duitsland",
+    "en": "Germany"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Jarenlang nummer 1 wereldwijd; nog altijd het meest gerespecteerde zakenpaspoort van Europa."
+    "note": "Number 1 worldwide for years; still Europe's most respected business passport."
   },
   "flags": {
     "euMember": true,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "allowed",
-    "note": "Volledig toegestaan sinds juni 2024 — een van de grootste recente verschuivingen in Europa."
+    "note": "Fully allowed since June 2024 — one of the biggest recent shifts in Europe."
   },
   "sources": [
     {

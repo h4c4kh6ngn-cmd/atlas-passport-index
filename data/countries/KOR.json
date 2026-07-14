@@ -2,13 +2,14 @@
   "iso2": "KR",
   "iso3": "KOR",
   "name": {
-    "nl": "Zuid-Korea"
+    "nl": "Zuid-Korea",
+    "en": "South Korea"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 187,
     "maxDestinations": 227,
-    "note": "Top-3 vaste waarde met uitzonderlijke dekking in zowel Azië als het Westen."
+    "note": "A steady top-3 fixture with exceptional coverage across both Asia and the West."
   },
   "flags": {
     "euMember": false,

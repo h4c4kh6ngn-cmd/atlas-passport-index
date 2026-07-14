@@ -2,9 +2,10 @@
   "iso2": "ST",
   "iso3": "STP",
   "name": {
-    "nl": "Sao Tomé en Principe"
+    "nl": "Sao Tomé en Principe",
+    "en": "São Tomé and Príncipe"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 59,
     "maxDestinations": 227,

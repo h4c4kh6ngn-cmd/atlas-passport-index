@@ -2,9 +2,10 @@
   "iso2": "VE",
   "iso3": "VEN",
   "name": {
-    "nl": "Venezuela"
+    "nl": "Venezuela",
+    "en": "Venezuela"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 116,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "BF",
   "iso3": "BFA",
   "name": {
-    "nl": "Burkina Faso"
+    "nl": "Burkina Faso",
+    "en": "Burkina Faso"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 57,
     "maxDestinations": 227,

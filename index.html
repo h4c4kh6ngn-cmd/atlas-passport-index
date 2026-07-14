@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ATLAS — Paspoort Power Index 2026</title>
+<title>ATLAS — Passport Power Index 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -181,22 +181,22 @@ footer .logo{font-size:16px;margin-bottom:14px;display:block}
   <div class="wrap">
     <div class="logo">ATLAS<span> / Mobility Index</span></div>
     <div class="navlinks">
-      <a href="#ranking">Ranking</a><a href="#vergelijk">Vergelijk</a><a href="#dubbel">Dubbel paspoort</a><a href="#pro">Pro</a>
+      <a href="#ranking">Ranking</a><a href="#compare">Compare</a><a href="#dual">Dual Passport</a><a href="#pro">Pro</a>
     </div>
-    <a class="nav-cta" href="#pro">Word Pro-lid</a>
+    <a class="nav-cta" href="#pro">Go Pro</a>
   </div>
 </nav>
 
 <header>
   <div class="guilloche"></div>
   <div class="wrap">
-    <p class="eyebrow">Editie 2026 · 199 paspoorten · 227 bestemmingen</p>
-    <h1>De macht van een <em>paspoort</em>, gemeten in vrijheid.</h1>
-    <p class="hero-sub">Eén Singaporees paspoort opent 192 grenzen zonder visum. Een Afghaans paspoort opent er 24. Hieronder: het volledige spectrum — elk balkje is een land. Tik erop.</p>
+    <p class="eyebrow">2026 edition · 199 passports · 227 destinations</p>
+    <h1>The power of a <em>passport</em>, measured in freedom.</h1>
+    <p class="hero-sub">A single Singaporean passport opens 192 borders without a visa. An Afghan passport opens 24. Below: the full spectrum — every bar is a country. Tap one.</p>
     <div class="spectrum-block">
-      <div class="spec-label"><span id="spec-first">№ 1</span><span id="spec-last">№ 199</span></div>
-      <div id="spectrum" aria-label="Interactief spectrum van alle 199 paspoorten"></div>
-      <div id="spec-tip">Beweeg over het spectrum —</div>
+      <div class="spec-label"><span id="spec-first">No. 1</span><span id="spec-last">No. 199</span></div>
+      <div id="spectrum" aria-label="Interactive spectrum of all 199 passports"></div>
+      <div id="spec-tip">Hover over the spectrum —</div>
     </div>
   </div>
   <div class="mrz"><div class="mrz-inner" id="mrzline"></div></div>
@@ -208,56 +208,56 @@ footer .logo{font-size:16px;margin-bottom:14px;display:block}
 <section id="ranking">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">Het volledige register</p>
-      <h2>Wereldranglijst 2026</h2>
-      <p>Alle 199 paspoorten, gerangschikt op visumvrije toegang. Open een land voor het volledige dossier: voordelen, zwaktes en strategische waarde.</p>
+      <p class="eyebrow">The full register</p>
+      <h2>World Ranking 2026</h2>
+      <p>All 199 passports, ranked by visa-free access. Open a country for the full dossier: advantages, weaknesses, and strategic value.</p>
     </div>
     <div id="loaderror"></div>
-    <div id="loading">Data laden…</div>
+    <div id="loading">Loading data…</div>
     <div id="app-ranking" style="display:none">
       <div class="controls">
-        <input id="q" type="search" placeholder="Zoek een land… (bv. Nederland)" aria-label="Zoek een land">
-        <select id="regionSel" aria-label="Filter op regio"><option value="">Alle regio's</option></select>
-        <select id="sortSel" aria-label="Sorteer"><option value="rank">Sorteer: rang</option><option value="az">Sorteer: A–Z</option></select>
+        <input id="q" type="search" placeholder="Search for a country… (e.g. Netherlands)" aria-label="Search for a country">
+        <select id="regionSel" aria-label="Filter by region"><option value="">All regions</option></select>
+        <select id="sortSel" aria-label="Sort"><option value="rank">Sort: rank</option><option value="az">Sort: A–Z</option></select>
       </div>
       <div class="tier-chips" id="chips"></div>
       <div id="ranklist"></div>
-      <button id="morebtn">Toon alle 199 paspoorten</button>
+      <button id="morebtn">Show all 199 passports</button>
       <p class="count-note" id="countnote"></p>
     </div>
   </div>
 </section>
 
-<section id="vergelijk" style="padding-top:0">
+<section id="compare" style="padding-top:0">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">Head-to-head</p>
-      <h2>Vergelijk twee paspoorten</h2>
+      <h2>Compare two passports</h2>
     </div>
     <div class="cmp-wrap">
       <div class="cmp-sel">
-        <select id="cmpA" aria-label="Eerste paspoort"></select>
+        <select id="cmpA" aria-label="First passport"></select>
         <div class="vs">versus</div>
-        <select id="cmpB" aria-label="Tweede paspoort"></select>
+        <select id="cmpB" aria-label="Second passport"></select>
       </div>
       <div id="cmpOut"></div>
     </div>
   </div>
 </section>
 
-<section id="dubbel" style="padding-top:0">
+<section id="dual" style="padding-top:0">
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">Database</p>
-      <h2>Welke landen accepteren een dubbele nationaliteit?</h2>
-      <p>De vraag die aan elke tweede-paspoortstrategie voorafgaat — en die geen enkele grote index beantwoordt. Alle 199 landen, doorzoekbaar. Tik op een land voor het volledige dossier.</p>
+      <h2>Which countries allow dual nationality?</h2>
+      <p>The question that precedes every second-passport strategy — and that no major index answers. All 199 countries, searchable. Tap a country for the full dossier.</p>
     </div>
     <div class="dn-stats" id="dnChips"></div>
     <div class="controls" style="margin-bottom:22px">
-      <input id="dnQ" type="search" placeholder="Zoek een land…" aria-label="Zoek in dubbele-nationaliteit database">
+      <input id="dnQ" type="search" placeholder="Search for a country…" aria-label="Search the dual-nationality database">
     </div>
     <div class="dn-grid" id="dnGrid"></div>
-    <p class="dn-legend"><b style="color:var(--gold-bright)">Indicatieve status.</b> Nationaliteitswetgeving kent per land uitzonderingen (geboorte, huwelijk, afkomst) en verandert regelmatig — Duitsland versoepelde bijvoorbeeld pas in 2024. Verifieer altijd de actuele wet vóór een beslissing. Dit is de contentmachine van de site: elk land hieronder is straks een eigen SEO-pagina.</p>
+    <p class="dn-legend"><b style="color:var(--gold-bright)">Indicative status.</b> Nationality law varies by country with exceptions (birth, marriage, descent) and changes regularly — Germany, for example, only eased its rules in 2024. Always verify the current law before making a decision. This is the site's content engine: every country below will eventually get its own SEO page.</p>
   </div>
 </section>
 
@@ -265,35 +265,35 @@ footer .logo{font-size:16px;margin-bottom:14px;display:block}
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">Atlas Pro</p>
-      <h2>Van ranglijst naar strategie</h2>
-      <p>De gratis index toont wáár je staat. Pro laat zien wat je ermee doet: tweede paspoorten, fiscale routes en visastrategie.</p>
+      <h2>From ranking to strategy</h2>
+      <p>The free index shows where you stand. Pro shows you what to do with it: second passports, tax routes, and visa strategy.</p>
     </div>
     <div class="pro-grid">
       <div class="price-card">
-        <span class="badge">Meest gekozen</span>
-        <p class="eyebrow" style="margin:0">Het Mobiliteitsdossier 2026</p>
-        <p class="price">€19<small> / eenmalig</small></p>
+        <span class="badge">Most popular</span>
+        <p class="eyebrow" style="margin:0">The Mobility Dossier 2026</p>
+        <p class="price">€19<small> / one-time</small></p>
         <ul class="feat">
-          <li>90+ pagina's: elk paspoort geanalyseerd op zaken, wonen en belasting</li>
-          <li>De 11 legale routes naar een tweede paspoort (vanaf €0 tot €900k)</li>
-          <li>Visastrategie-matrix: welke combinatie van 2 paspoorten dekt 98% van de wereld</li>
-          <li>Kwartaal-updates bij elke Henley-herziening inbegrepen</li>
+          <li>90+ pages: every passport analyzed for business, residency, and tax</li>
+          <li>The 11 legal routes to a second passport (from €0 to €900k)</li>
+          <li>Visa strategy matrix: which combination of 2 passports covers 98% of the world</li>
+          <li>Quarterly updates included with every Henley revision</li>
         </ul>
-        <button class="d-cta" onclick="toast('Demo — koppel hier je Stripe/Gumroad checkout')">Download het dossier — €19</button>
+        <button class="d-cta" onclick="toast('Demo — connect your Stripe/Gumroad checkout here')">Download the dossier — €19</button>
       </div>
       <div class="lead-card">
-        <h3>Gratis: jouw paspoort-scan</h3>
-        <p>Ontvang een persoonlijk 1-pagina rapport over jouw paspoort + de 3 slimste upgrades. Direct in je inbox.</p>
-        <input type="text" placeholder="Jouw nationaliteit" aria-label="Nationaliteit">
-        <input type="email" placeholder="E-mailadres" aria-label="E-mailadres">
-        <button class="d-cta" style="margin-top:6px" onclick="toast('Demo — koppel hier je e-maillijst (ConvertKit/Mailchimp)')">Stuur mijn gratis scan</button>
-        <p style="font-size:11.5px;margin-top:12px;color:var(--ivory-dim)">Geen spam. Dit is je leadmagnet → e-maillijst → verkoop van het dossier.</p>
+        <h3>Free: your passport scan</h3>
+        <p>Get a personal 1-page report on your passport + the 3 smartest upgrades. Straight to your inbox.</p>
+        <input type="text" placeholder="Your nationality" aria-label="Nationality">
+        <input type="email" placeholder="Email address" aria-label="Email address">
+        <button class="d-cta" style="margin-top:6px" onclick="toast('Demo — connect your email list here (ConvertKit/Mailchimp)')">Send my free scan</button>
+        <p style="font-size:11.5px;margin-top:12px;color:var(--ivory-dim)">No spam. This is your lead magnet → email list → dossier sales.</p>
       </div>
     </div>
     <div class="rev-models">
-      <div class="rev"><span class="mono">Inkomsten 01</span><b>Affiliate: visumdiensten</b><p>Elk land-dossier eindigt met "Regel je visum" — koppel iVisa/VisaHQ-affiliatelinks. €5–15 commissie per aanvraag, op de plek waar de intentie het hoogst is.</p></div>
-      <div class="rev"><span class="mono">Inkomsten 02</span><b>Leadgen: tweede burgerschap</b><p>Citizenship-by-investment kantoren betalen €50–500 per gekwalificeerde lead. De "gratis scan" hierboven is de trechter.</p></div>
-      <div class="rev"><span class="mono">Inkomsten 03</span><b>Digitaal product</b><p>Het €19-dossier: één keer maken, oneindig verkopen. Lage prijs houdt de drempel klein — Kwartaalupdates houden het relevant en rechtvaardigen een abonnementsvariant (€5/kwartaal).</p></div>
+      <div class="rev"><span class="mono">Revenue 01</span><b>Affiliate: visa services</b><p>Every country dossier ends with "Arrange your visa" — link iVisa/VisaHQ affiliate links. €5–15 commission per application, right where intent is highest.</p></div>
+      <div class="rev"><span class="mono">Revenue 02</span><b>Lead gen: second citizenship</b><p>Citizenship-by-investment firms pay €50–500 per qualified lead. The "free scan" above is the funnel.</p></div>
+      <div class="rev"><span class="mono">Revenue 03</span><b>Digital product</b><p>The €19 dossier: build it once, sell it endlessly. The low price keeps the barrier small — quarterly updates keep it relevant and justify a subscription variant (€5/quarter).</p></div>
     </div>
   </div>
 </section>
@@ -301,12 +301,12 @@ footer .logo{font-size:16px;margin-bottom:14px;display:block}
 <footer>
   <div class="wrap">
     <span class="logo">ATLAS<span> / Mobility Index</span></span>
-    <p>Gebaseerd op openbare Henley Passport Index-data (2026). "Visumvrij" omvat ook visa on arrival en automatische reisautorisaties (ETA). Controleer vóór vertrek altijd de officiële inreisvoorwaarden — dit is geen juridisch of immigratieadvies.</p>
+    <p>Based on public Henley Passport Index data (2026). "Visa-free" also includes visa on arrival and automatic travel authorizations (eTA). Always check official entry requirements before departure — this is not legal or immigration advice.</p>
   </div>
 </footer>
 
 <div id="overlay" onclick="closeD()"></div>
-<aside id="dossier" role="dialog" aria-modal="true" aria-label="Landendossier"></aside>
+<aside id="dossier" role="dialog" aria-modal="true" aria-label="Country dossier"></aside>
 <div class="toast" id="toast"></div>
 
 <script type="module" src="js/main.js"></script>

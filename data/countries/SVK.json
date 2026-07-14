@@ -2,9 +2,10 @@
   "iso2": "SK",
   "iso3": "SVK",
   "name": {
-    "nl": "Slowakije"
+    "nl": "Slowakije",
+    "en": "Slovakia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 183,
     "maxDestinations": 227,

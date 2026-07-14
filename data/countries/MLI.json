@@ -2,9 +2,10 @@
   "iso2": "ML",
   "iso3": "MLI",
   "name": {
-    "nl": "Mali"
+    "nl": "Mali",
+    "en": "Mali"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 53,
     "maxDestinations": 227,

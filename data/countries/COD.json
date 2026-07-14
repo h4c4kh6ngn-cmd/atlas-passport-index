@@ -2,9 +2,10 @@
   "iso2": "CD",
   "iso3": "COD",
   "name": {
-    "nl": "DR Congo"
+    "nl": "DR Congo",
+    "en": "DR Congo"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 43,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "TT",
   "iso3": "TTO",
   "name": {
-    "nl": "Trinidad en Tobago"
+    "nl": "Trinidad en Tobago",
+    "en": "Trinidad and Tobago"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 146,
     "maxDestinations": 227,

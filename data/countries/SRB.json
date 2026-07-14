@@ -2,13 +2,14 @@
   "iso2": "RS",
   "iso3": "SRB",
   "name": {
-    "nl": "Servië"
+    "nl": "Servië",
+    "en": "Serbia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 136,
     "maxDestinations": 227,
-    "note": "Zeldzame positie: visumvrij in zowel Schengen als Rusland en China."
+    "note": "A rare position: visa-free in both Schengen and Russia and China."
   },
   "flags": {
     "euMember": false,

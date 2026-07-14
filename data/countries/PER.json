@@ -2,9 +2,10 @@
   "iso2": "PE",
   "iso3": "PER",
   "name": {
-    "nl": "Peru"
+    "nl": "Peru",
+    "en": "Peru"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 142,
     "maxDestinations": 227,

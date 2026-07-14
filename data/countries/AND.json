@@ -2,9 +2,10 @@
   "iso2": "AD",
   "iso3": "AND",
   "name": {
-    "nl": "Andorra"
+    "nl": "Andorra",
+    "en": "Andorra"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 170,
     "maxDestinations": 227,

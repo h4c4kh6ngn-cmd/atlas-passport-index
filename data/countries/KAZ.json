@@ -2,9 +2,10 @@
   "iso2": "KZ",
   "iso3": "KAZ",
   "name": {
-    "nl": "Kazachstan"
+    "nl": "Kazachstan",
+    "en": "Kazakhstan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 78,
     "maxDestinations": 227,

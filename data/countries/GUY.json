@@ -2,9 +2,10 @@
   "iso2": "GY",
   "iso3": "GUY",
   "name": {
-    "nl": "Guyana"
+    "nl": "Guyana",
+    "en": "Guyana"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 89,
     "maxDestinations": 227,

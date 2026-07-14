@@ -2,13 +2,14 @@
   "iso2": "GE",
   "iso3": "GEO",
   "name": {
-    "nl": "Georgië"
+    "nl": "Georgië",
+    "en": "Georgia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 121,
     "maxDestinations": 227,
-    "note": "Visumvrij Schengen sinds 2017; zelf extreem open voor buitenlanders (365 dagen visumvrij verblijf)."
+    "note": "Visa-free Schengen since 2017; itself extremely open to foreigners (365 days of visa-free stay)."
   },
   "flags": {
     "euMember": false,

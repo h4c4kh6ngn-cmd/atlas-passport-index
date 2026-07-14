@@ -2,9 +2,10 @@
   "iso2": "DJ",
   "iso3": "DJI",
   "name": {
-    "nl": "Djibouti"
+    "nl": "Djibouti",
+    "en": "Djibouti"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 46,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "TJ",
   "iso3": "TJK",
   "name": {
-    "nl": "Tadzjikistan"
+    "nl": "Tadzjikistan",
+    "en": "Tajikistan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 54,
     "maxDestinations": 227,

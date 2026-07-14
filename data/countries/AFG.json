@@ -2,13 +2,14 @@
   "iso2": "AF",
   "iso3": "AFG",
   "name": {
-    "nl": "Afghanistan"
+    "nl": "Afghanistan",
+    "en": "Afghanistan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 24,
     "maxDestinations": 227,
-    "note": "De hekkensluiter: 24 bestemmingen. De kloof met Singapore (168 bestemmingen) is de grootste in de 20-jarige geschiedenis van de index."
+    "note": "Last place: 24 destinations. The gap with Singapore (168 destinations) is the largest in the index's 20-year history."
   },
   "flags": {
     "euMember": false,

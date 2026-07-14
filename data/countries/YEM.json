@@ -2,9 +2,10 @@
   "iso2": "YE",
   "iso3": "YEM",
   "name": {
-    "nl": "Jemen"
+    "nl": "Jemen",
+    "en": "Yemen"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 31,
     "maxDestinations": 227,

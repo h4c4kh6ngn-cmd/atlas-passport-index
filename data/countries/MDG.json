@@ -2,9 +2,10 @@
   "iso2": "MG",
   "iso3": "MDG",
   "name": {
-    "nl": "Madagaskar"
+    "nl": "Madagaskar",
+    "en": "Madagascar"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 56,
     "maxDestinations": 227,

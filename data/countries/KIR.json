@@ -2,9 +2,10 @@
   "iso2": "KI",
   "iso3": "KIR",
   "name": {
-    "nl": "Kiribati"
+    "nl": "Kiribati",
+    "en": "Kiribati"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 123,
     "maxDestinations": 227,

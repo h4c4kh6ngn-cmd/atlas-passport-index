@@ -2,9 +2,10 @@
   "iso2": "PL",
   "iso3": "POL",
   "name": {
-    "nl": "Polen"
+    "nl": "Polen",
+    "en": "Poland"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 183,
     "maxDestinations": 227,

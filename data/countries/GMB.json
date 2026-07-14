@@ -2,9 +2,10 @@
   "iso2": "GM",
   "iso3": "GMB",
   "name": {
-    "nl": "Gambia"
+    "nl": "Gambia",
+    "en": "Gambia"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 69,
     "maxDestinations": 227,

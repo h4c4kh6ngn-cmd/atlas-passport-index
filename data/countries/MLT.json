@@ -2,13 +2,14 @@
   "iso2": "MT",
   "iso3": "MLT",
   "name": {
-    "nl": "Malta"
+    "nl": "Malta",
+    "en": "Malta"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 184,
     "maxDestinations": 227,
-    "note": "Kleinste EU-lidstaat met een van de sterkste paspoorten; bekend van omstreden investeringsnaturalisatie."
+    "note": "The smallest EU member state with one of the strongest passports; known for its controversial investment-naturalization program."
   },
   "flags": {
     "euMember": true,

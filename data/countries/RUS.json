@@ -2,13 +2,14 @@
   "iso2": "RU",
   "iso3": "RUS",
   "name": {
-    "nl": "Rusland"
+    "nl": "Rusland",
+    "en": "Russia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 113,
     "maxDestinations": 227,
-    "note": "Structureel dalend sinds 2022; Schengen en de VS vereisen een visum."
+    "note": "Structurally declining since 2022; Schengen and the US both require a visa."
   },
   "flags": {
     "euMember": false,

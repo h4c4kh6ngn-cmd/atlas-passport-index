@@ -2,13 +2,14 @@
   "iso2": "NL",
   "iso3": "NLD",
   "name": {
-    "nl": "Nederland"
+    "nl": "Nederland",
+    "en": "Netherlands"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,
-    "note": "Top-4 wereldwijd: 185 bestemmingen, volledige EU-rechten, ESTA voor de VS en een van de sterkste zakenreputaties. Vanaf Schiphol is ~82% van de wereld zonder visum bereikbaar."
+    "note": "Top 4 worldwide: 185 destinations, full EU rights, ESTA for the US, and one of the strongest business reputations. From Schiphol, ~82% of the world is reachable without a visa."
   },
   "flags": {
     "euMember": true,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "restricted",
-    "note": "Hoofdregel: wie vrijwillig naturaliseert verliest het Nederlanderschap — maar er zijn brede uitzonderingen (gehuwd met een onderdaan van dat land, daar geboren, of als afstand doen onmogelijk is). Politiek al jaren onderwerp van debat."
+    "note": "General rule: voluntarily naturalizing elsewhere means losing Dutch citizenship — but there are broad exceptions (married to a national of that country, born there, or if renouncing is impossible). It's been a political debate for years."
   },
   "sources": [
     {

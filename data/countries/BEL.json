@@ -2,9 +2,10 @@
   "iso2": "BE",
   "iso3": "BEL",
   "name": {
-    "nl": "België"
+    "nl": "België",
+    "en": "Belgium"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "NE",
   "iso3": "NER",
   "name": {
-    "nl": "Niger"
+    "nl": "Niger",
+    "en": "Niger"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 55,
     "maxDestinations": 227,

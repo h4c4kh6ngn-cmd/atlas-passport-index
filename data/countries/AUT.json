@@ -2,9 +2,10 @@
   "iso2": "AT",
   "iso3": "AUT",
   "name": {
-    "nl": "Oostenrijk"
+    "nl": "Oostenrijk",
+    "en": "Austria"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 184,
     "maxDestinations": 227,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "not_allowed",
-    "note": "Een van de strengste landen van Europa; uitzonderingen alleen bij bijzonder belang voor de staat."
+    "note": "One of Europe's strictest countries; exceptions only for cases of special state interest."
   },
   "sources": [
     {

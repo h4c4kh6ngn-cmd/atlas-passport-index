@@ -2,9 +2,10 @@
   "iso2": "FI",
   "iso3": "FIN",
   "name": {
-    "nl": "Finland"
+    "nl": "Finland",
+    "en": "Finland"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,

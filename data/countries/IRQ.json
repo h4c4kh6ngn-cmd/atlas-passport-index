@@ -2,9 +2,10 @@
   "iso2": "IQ",
   "iso3": "IRQ",
   "name": {
-    "nl": "Irak"
+    "nl": "Irak",
+    "en": "Iraq"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 29,
     "maxDestinations": 227,

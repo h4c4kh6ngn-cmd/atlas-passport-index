@@ -2,9 +2,10 @@
   "iso2": "RW",
   "iso3": "RWA",
   "name": {
-    "nl": "Rwanda"
+    "nl": "Rwanda",
+    "en": "Rwanda"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 67,
     "maxDestinations": 227,

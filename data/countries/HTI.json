@@ -2,9 +2,10 @@
   "iso2": "HT",
   "iso3": "HTI",
   "name": {
-    "nl": "Haïti"
+    "nl": "Haïti",
+    "en": "Haiti"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 49,
     "maxDestinations": 227,

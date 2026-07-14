@@ -2,9 +2,10 @@
   "iso2": "NO",
   "iso3": "NOR",
   "name": {
-    "nl": "Noorwegen"
+    "nl": "Noorwegen",
+    "en": "Norway"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 185,
     "maxDestinations": 227,

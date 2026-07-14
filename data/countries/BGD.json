@@ -2,9 +2,10 @@
   "iso2": "BD",
   "iso3": "BGD",
   "name": {
-    "nl": "Bangladesh"
+    "nl": "Bangladesh",
+    "en": "Bangladesh"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 37,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "TD",
   "iso3": "TCD",
   "name": {
-    "nl": "Tsjaad"
+    "nl": "Tsjaad",
+    "en": "Chad"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 52,
     "maxDestinations": 227,

@@ -2,13 +2,14 @@
   "iso2": "IN",
   "iso3": "IND",
   "name": {
-    "nl": "India"
+    "nl": "India",
+    "en": "India"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 56,
     "maxDestinations": 227,
-    "note": "Vijfde economie ter wereld, plek ~75 op de index: de grootste mismatch tussen economische macht en paspoortmacht."
+    "note": "The world's fifth-largest economy, ranked around 75th on the index: the biggest mismatch between economic power and passport power."
   },
   "flags": {
     "euMember": false,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "not_allowed",
-    "note": "India verbiedt dubbele nationaliteit strikt; de OCI-kaart is een verblijfsstatus, géén tweede paspoort."
+    "note": "India strictly forbids dual nationality; the OCI card is a residency status, not a second passport."
   },
   "sources": [
     {

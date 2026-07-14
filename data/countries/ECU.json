@@ -2,9 +2,10 @@
   "iso2": "EC",
   "iso3": "ECU",
   "name": {
-    "nl": "Ecuador"
+    "nl": "Ecuador",
+    "en": "Ecuador"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 93,
     "maxDestinations": 227,

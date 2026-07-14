@@ -2,9 +2,10 @@
   "iso2": "CM",
   "iso3": "CMR",
   "name": {
-    "nl": "Kameroen"
+    "nl": "Kameroen",
+    "en": "Cameroon"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 47,
     "maxDestinations": 227,

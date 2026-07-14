@@ -2,9 +2,10 @@
   "iso2": "LT",
   "iso3": "LTU",
   "name": {
-    "nl": "Litouwen"
+    "nl": "Litouwen",
+    "en": "Lithuania"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 181,
     "maxDestinations": 227,

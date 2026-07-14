@@ -2,9 +2,10 @@
   "iso2": "GA",
   "iso3": "GAB",
   "name": {
-    "nl": "Gabon"
+    "nl": "Gabon",
+    "en": "Gabon"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 56,
     "maxDestinations": 227,

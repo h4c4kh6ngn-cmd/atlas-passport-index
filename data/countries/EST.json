@@ -2,13 +2,14 @@
   "iso2": "EE",
   "iso3": "EST",
   "name": {
-    "nl": "Estland"
+    "nl": "Estland",
+    "en": "Estonia"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 182,
     "maxDestinations": 227,
-    "note": "Bonus: 's werelds bekendste e-Residency-programma voor ondernemers."
+    "note": "Bonus: the world's best-known e-Residency program for entrepreneurs."
   },
   "flags": {
     "euMember": true,

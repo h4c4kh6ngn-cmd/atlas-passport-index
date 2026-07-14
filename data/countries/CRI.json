@@ -2,9 +2,10 @@
   "iso2": "CR",
   "iso3": "CRI",
   "name": {
-    "nl": "Costa Rica"
+    "nl": "Costa Rica",
+    "en": "Costa Rica"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 148,
     "maxDestinations": 227,

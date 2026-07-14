@@ -2,13 +2,14 @@
   "iso2": "ZA",
   "iso3": "ZAF",
   "name": {
-    "nl": "Zuid-Afrika"
+    "nl": "Zuid-Afrika",
+    "en": "South Africa"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 100,
     "maxDestinations": 227,
-    "note": "Terug in de top-50 na een decennium; sterkste paspoort van continentaal Afrika onder de Sahara."
+    "note": "Back in the top 50 after a decade; the strongest passport in continental Sub-Saharan Africa."
   },
   "flags": {
     "euMember": false,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "restricted",
-    "note": "Toegestaan mits vóóraf toestemming (retention) is aangevraagd — wie dat vergeet verliest het Zuid-Afrikaanse paspoort."
+    "note": "Allowed provided prior permission (retention) is applied for — forgetting to do so costs you your South African passport."
   },
   "sources": [
     {

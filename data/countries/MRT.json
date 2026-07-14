@@ -2,9 +2,10 @@
   "iso2": "MR",
   "iso3": "MRT",
   "name": {
-    "nl": "Mauritanië"
+    "nl": "Mauritanië",
+    "en": "Mauritania"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 56,
     "maxDestinations": 227,

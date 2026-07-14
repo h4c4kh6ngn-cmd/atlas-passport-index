@@ -2,9 +2,10 @@
   "iso2": "TG",
   "iso3": "TGO",
   "name": {
-    "nl": "Togo"
+    "nl": "Togo",
+    "en": "Togo"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 58,
     "maxDestinations": 227,

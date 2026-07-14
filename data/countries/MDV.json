@@ -2,9 +2,10 @@
   "iso2": "MV",
   "iso3": "MDV",
   "name": {
-    "nl": "Malediven"
+    "nl": "Malediven",
+    "en": "Maldives"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 93,
     "maxDestinations": 227,

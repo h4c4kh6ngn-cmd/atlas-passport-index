@@ -2,9 +2,10 @@
   "iso2": "CV",
   "iso3": "CPV",
   "name": {
-    "nl": "Kaapverdië"
+    "nl": "Kaapverdië",
+    "en": "Cabo Verde"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 64,
     "maxDestinations": 227,

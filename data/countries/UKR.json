@@ -2,13 +2,14 @@
   "iso2": "UA",
   "iso3": "UKR",
   "name": {
-    "nl": "Oekraïne"
+    "nl": "Oekraïne",
+    "en": "Ukraine"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 143,
     "maxDestinations": 227,
-    "note": "Sinds 2017 visumvrij in Schengen; score bleef ondanks de oorlog opvallend stabiel."
+    "note": "Visa-free in Schengen since 2017; the score has remained remarkably stable despite the war."
   },
   "flags": {
     "euMember": false,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "restricted",
-    "note": "Historisch niet erkend, maar recent wetgevend versoepeld richting meervoudig burgerschap."
+    "note": "Historically not recognized, but recently eased by legislation toward multiple citizenship."
   },
   "sources": [
     {

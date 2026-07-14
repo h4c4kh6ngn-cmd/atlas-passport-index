@@ -2,9 +2,10 @@
   "iso2": "PW",
   "iso3": "PLW",
   "name": {
-    "nl": "Palau"
+    "nl": "Palau",
+    "en": "Palau"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 120,
     "maxDestinations": 227,

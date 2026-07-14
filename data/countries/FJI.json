@@ -2,9 +2,10 @@
   "iso2": "FJ",
   "iso3": "FJI",
   "name": {
-    "nl": "Fiji"
+    "nl": "Fiji",
+    "en": "Fiji"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 88,
     "maxDestinations": 227,

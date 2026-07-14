@@ -2,9 +2,10 @@
   "iso2": "LI",
   "iso3": "LIE",
   "name": {
-    "nl": "Liechtenstein"
+    "nl": "Liechtenstein",
+    "en": "Liechtenstein"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 181,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "BI",
   "iso3": "BDI",
   "name": {
-    "nl": "Burundi"
+    "nl": "Burundi",
+    "en": "Burundi"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 49,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "AZ",
   "iso3": "AZE",
   "name": {
-    "nl": "Azerbeidzjan"
+    "nl": "Azerbeidzjan",
+    "en": "Azerbaijan"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 68,
     "maxDestinations": 227,

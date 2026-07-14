@@ -2,9 +2,10 @@
   "iso2": "MD",
   "iso3": "MDA",
   "name": {
-    "nl": "Moldavië"
+    "nl": "Moldavië",
+    "en": "Moldova"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 119,
     "maxDestinations": 227,

@@ -2,9 +2,10 @@
   "iso2": "TZ",
   "iso3": "TZA",
   "name": {
-    "nl": "Tanzania"
+    "nl": "Tanzania",
+    "en": "Tanzania"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 69,
     "maxDestinations": 227,

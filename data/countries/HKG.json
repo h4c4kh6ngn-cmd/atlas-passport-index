@@ -2,13 +2,14 @@
   "iso2": "HK",
   "iso3": "HKG",
   "name": {
-    "nl": "Hongkong"
+    "nl": "Hongkong",
+    "en": "Hong Kong"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 173,
     "maxDestinations": 227,
-    "note": "Opvallend krachtig voor een niet-soeverein reisdocument; aparte status naast het Chinese paspoort."
+    "note": "Remarkably powerful for a non-sovereign travel document; holds separate status alongside the Chinese passport."
   },
   "flags": {
     "euMember": false,

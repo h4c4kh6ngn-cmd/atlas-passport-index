@@ -2,9 +2,10 @@
   "iso2": "WS",
   "iso3": "WSM",
   "name": {
-    "nl": "Samoa"
+    "nl": "Samoa",
+    "en": "Samoa"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 130,
     "maxDestinations": 227,

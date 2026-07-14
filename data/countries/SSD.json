@@ -2,9 +2,10 @@
   "iso2": "SS",
   "iso3": "SSD",
   "name": {
-    "nl": "Zuid-Soedan"
+    "nl": "Zuid-Soedan",
+    "en": "South Sudan"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 41,
     "maxDestinations": 227,

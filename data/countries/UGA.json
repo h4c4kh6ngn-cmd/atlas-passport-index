@@ -2,9 +2,10 @@
   "iso2": "UG",
   "iso3": "UGA",
   "name": {
-    "nl": "Oeganda"
+    "nl": "Oeganda",
+    "en": "Uganda"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 66,
     "maxDestinations": 227,

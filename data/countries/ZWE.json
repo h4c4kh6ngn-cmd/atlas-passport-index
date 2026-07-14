@@ -2,9 +2,10 @@
   "iso2": "ZW",
   "iso3": "ZWE",
   "name": {
-    "nl": "Zimbabwe"
+    "nl": "Zimbabwe",
+    "en": "Zimbabwe"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 62,
     "maxDestinations": 227,

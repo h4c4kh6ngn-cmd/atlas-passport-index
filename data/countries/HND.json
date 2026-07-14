@@ -2,9 +2,10 @@
   "iso2": "HN",
   "iso3": "HND",
   "name": {
-    "nl": "Honduras"
+    "nl": "Honduras",
+    "en": "Honduras"
   },
-  "region": "Midden-Amerika",
+  "region": "Central America",
   "passportIndex": {
     "score": 129,
     "maxDestinations": 227,

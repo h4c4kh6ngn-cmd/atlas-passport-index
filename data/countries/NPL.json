@@ -2,9 +2,10 @@
   "iso2": "NP",
   "iso3": "NPL",
   "name": {
-    "nl": "Nepal"
+    "nl": "Nepal",
+    "en": "Nepal"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 35,
     "maxDestinations": 227,

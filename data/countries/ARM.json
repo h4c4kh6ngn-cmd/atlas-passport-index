@@ -2,9 +2,10 @@
   "iso2": "AM",
   "iso3": "ARM",
   "name": {
-    "nl": "Armenië"
+    "nl": "Armenië",
+    "en": "Armenia"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 64,
     "maxDestinations": 227,

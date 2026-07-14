@@ -2,9 +2,10 @@
   "iso2": "MZ",
   "iso3": "MOZ",
   "name": {
-    "nl": "Mozambique"
+    "nl": "Mozambique",
+    "en": "Mozambique"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 60,
     "maxDestinations": 227,

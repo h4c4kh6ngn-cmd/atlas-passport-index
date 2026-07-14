@@ -2,9 +2,10 @@
   "iso2": "KW",
   "iso3": "KWT",
   "name": {
-    "nl": "Koeweit"
+    "nl": "Koeweit",
+    "en": "Kuwait"
   },
-  "region": "Midden-Oosten",
+  "region": "Middle East",
   "passportIndex": {
     "score": 96,
     "maxDestinations": 227,

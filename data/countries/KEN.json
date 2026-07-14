@@ -2,13 +2,14 @@
   "iso2": "KE",
   "iso3": "KEN",
   "name": {
-    "nl": "Kenia"
+    "nl": "Kenia",
+    "en": "Kenya"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 69,
     "maxDestinations": 227,
-    "note": "Zelf koploper in Afrikaanse openheid: schafte visa af voor alle Afrikaanse bezoekers."
+    "note": "A leader in African openness itself: abolished visas for all African visitors."
   },
   "flags": {
     "euMember": false,

@@ -2,9 +2,10 @@
   "iso2": "JM",
   "iso3": "JAM",
   "name": {
-    "nl": "Jamaica"
+    "nl": "Jamaica",
+    "en": "Jamaica"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 86,
     "maxDestinations": 227,

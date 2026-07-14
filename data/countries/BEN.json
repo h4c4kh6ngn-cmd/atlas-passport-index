@@ -2,9 +2,10 @@
   "iso2": "BJ",
   "iso3": "BEN",
   "name": {
-    "nl": "Benin"
+    "nl": "Benin",
+    "en": "Benin"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 66,
     "maxDestinations": 227,

@@ -2,13 +2,14 @@
   "iso2": "NZ",
   "iso3": "NZL",
   "name": {
-    "nl": "Nieuw-Zeeland"
+    "nl": "Nieuw-Zeeland",
+    "en": "New Zealand"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 183,
     "maxDestinations": 227,
-    "note": "Inclusief levenslang woon- en werkrecht in Australië (Trans-Tasman)."
+    "note": "Includes a lifelong right to live and work in Australia (Trans-Tasman)."
   },
   "flags": {
     "euMember": false,

@@ -2,9 +2,10 @@
   "iso2": "GH",
   "iso3": "GHA",
   "name": {
-    "nl": "Ghana"
+    "nl": "Ghana",
+    "en": "Ghana"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 68,
     "maxDestinations": 227,

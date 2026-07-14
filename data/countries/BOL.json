@@ -2,9 +2,10 @@
   "iso2": "BO",
   "iso3": "BOL",
   "name": {
-    "nl": "Bolivia"
+    "nl": "Bolivia",
+    "en": "Bolivia"
   },
-  "region": "Zuid-Amerika",
+  "region": "South America",
   "passportIndex": {
     "score": 77,
     "maxDestinations": 227,

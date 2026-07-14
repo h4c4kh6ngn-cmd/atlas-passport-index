@@ -2,9 +2,10 @@
   "iso2": "SZ",
   "iso3": "SWZ",
   "name": {
-    "nl": "Eswatini"
+    "nl": "Eswatini",
+    "en": "Eswatini"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 72,
     "maxDestinations": 227,

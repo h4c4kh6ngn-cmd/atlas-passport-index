@@ -2,13 +2,14 @@
   "iso2": "MY",
   "iso3": "MYS",
   "name": {
-    "nl": "Maleisië"
+    "nl": "Maleisië",
+    "en": "Malaysia"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 183,
     "maxDestinations": 227,
-    "note": "Sterkste paspoort van Zuidoost-Azië na Singapore; visumvrij in vrijwel heel Azië én Schengen."
+    "note": "Southeast Asia's strongest passport after Singapore; visa-free across nearly all of Asia and Schengen."
   },
   "flags": {
     "euMember": false,

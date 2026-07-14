@@ -2,9 +2,10 @@
   "iso2": "AO",
   "iso3": "AGO",
   "name": {
-    "nl": "Angola"
+    "nl": "Angola",
+    "en": "Angola"
   },
-  "region": "Afrika",
+  "region": "Africa",
   "passportIndex": {
     "score": 48,
     "maxDestinations": 227,

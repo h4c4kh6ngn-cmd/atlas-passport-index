@@ -2,13 +2,14 @@
   "iso2": "GR",
   "iso3": "GRC",
   "name": {
-    "nl": "Griekenland"
+    "nl": "Griekenland",
+    "en": "Greece"
   },
-  "region": "Europa",
+  "region": "Europe",
   "passportIndex": {
     "score": 184,
     "maxDestinations": 227,
-    "note": "Populair via de Golden Visa-route: verblijfsrecht per direct, EU-paspoort na 7 jaar."
+    "note": "Popular via the Golden Visa route: residency rights immediately, an EU passport after 7 years."
   },
   "flags": {
     "euMember": true,

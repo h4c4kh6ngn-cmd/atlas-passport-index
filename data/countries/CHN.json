@@ -2,13 +2,14 @@
   "iso2": "CN",
   "iso3": "CHN",
   "name": {
-    "nl": "China"
+    "nl": "China",
+    "en": "China"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 82,
     "maxDestinations": 227,
-    "note": "Bescheiden score, maar de invloedrijkste visumdiplomaat van dit moment: China stelt zélf tientallen landen visumvrij en oogst reciprociteit."
+    "note": "A modest score, but currently the most influential visa diplomat: China itself grants visa-free entry to dozens of countries and is reaping the reciprocity."
   },
   "flags": {
     "euMember": false,
@@ -18,7 +19,7 @@
   },
   "dualNationality": {
     "status": "not_allowed",
-    "note": "China erkent geen dubbele nationaliteit; naturalisatie elders betekent formeel verlies."
+    "note": "China does not recognize dual nationality; naturalizing elsewhere formally means losing Chinese citizenship."
   },
   "sources": [
     {

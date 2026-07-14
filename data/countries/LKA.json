@@ -2,9 +2,10 @@
   "iso2": "LK",
   "iso3": "LKA",
   "name": {
-    "nl": "Sri Lanka"
+    "nl": "Sri Lanka",
+    "en": "Sri Lanka"
   },
-  "region": "Azië",
+  "region": "Asia",
   "passportIndex": {
     "score": 39,
     "maxDestinations": 227,

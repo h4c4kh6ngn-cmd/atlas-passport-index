@@ -2,9 +2,10 @@
   "iso2": "TO",
   "iso3": "TON",
   "name": {
-    "nl": "Tonga"
+    "nl": "Tonga",
+    "en": "Tonga"
   },
-  "region": "Oceanië",
+  "region": "Oceania",
   "passportIndex": {
     "score": 128,
     "maxDestinations": 227,

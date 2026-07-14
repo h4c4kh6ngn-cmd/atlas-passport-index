@@ -2,9 +2,10 @@
   "iso2": "DO",
   "iso3": "DOM",
   "name": {
-    "nl": "Dominicaanse Republiek"
+    "nl": "Dominicaanse Republiek",
+    "en": "Dominican Republic"
   },
-  "region": "Caribisch gebied",
+  "region": "Caribbean",
   "passportIndex": {
     "score": 71,
     "maxDestinations": 227,
