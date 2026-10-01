@@ -7,7 +7,7 @@
   },
   "region": "Africa",
   "passportIndex": {
-    "score": 66,
+    "score": 68,
     "maxDestinations": 227,
     "note": null
   },
@@ -30,7 +30,15 @@
         "passportIndex.score",
         "flags"
       ]
+    },
+    {
+      "label": "Passport Index — Benin passport, 2026 mobility score 68",
+      "url": "https://www.passportindex.org/?country=bj",
+      "accessedDate": "2026-10-01",
+      "fields": [
+        "passportIndex.score"
+      ]
     }
   ],
-  "lastUpdated": "2026-07-13"
+  "lastUpdated": "2026-10-01"
 }
