@@ -18,7 +18,7 @@
     "citizenshipByInvestment": false
   },
   "dualNationality": {
-    "status": "allowed",
+    "status": "not allowed",
     "note": null
   },
   "sources": [
@@ -30,7 +30,15 @@
         "passportIndex.score",
         "flags"
       ]
+    },
+    {
+      "label": "IndexMundi — Angola Citizenship (dual citizenship recognized: no)",
+      "url": "https://www.indexmundi.com/angola/citizenship.html",
+      "accessedDate": "2026-10-01",
+      "fields": [
+        "dualNationality.status"
+      ]
     }
   ],
-  "lastUpdated": "2026-07-13"
+  "lastUpdated": "2026-10-01"
 }
